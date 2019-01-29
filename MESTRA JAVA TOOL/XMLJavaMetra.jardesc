@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<jardesc>
+    <jar path="D:/Users/T0007330/Documents/Mes Outils Personnels/Web Applets/Mestra Java Web Applet/NewXMLMestraApplet.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/MESTRA JAVA TOOL/XMLJavaMetra.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="false" manifestLocation="/MESTRA JAVA TOOL/JavaMestraManifest" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="true">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <file path="/MESTRA JAVA TOOL/MestraApplet.jardesc"/>
+        <javaElement handleIdentifier="=TableView/&lt;gui"/>
+        <javaElement handleIdentifier="=commons-io-2.4-src/src\/main\/java"/>
+        <javaElement handleIdentifier="=xmlbeans-2.6.0/src\/tools"/>
+        <javaElement handleIdentifier="=xmlbeans-2.6.0/src\/common"/>
+        <file path="/MESTRA JAVA TOOL/.classpath"/>
+        <file path="/MESTRA JAVA TOOL/MestraJavaTool"/>
+        <javaElement handleIdentifier="=xmlbeans-2.6.0/src\/xpath_xquery"/>
+        <javaElement handleIdentifier="=xmlbeans-2.6.0/src\/store"/>
+        <javaElement handleIdentifier="=xmlbeans-2.6.0/src\/typestore"/>
+        <javaElement handleIdentifier="=poi-3.14/src\/scratchpad\/src"/>
+        <javaElement handleIdentifier="=TableView/&lt;gui.tableView"/>
+        <javaElement handleIdentifier="=poi-3.14/src\/testcases"/>
+        <file path="/MESTRA JAVA TOOL/.project"/>
+        <javaElement handleIdentifier="=xmlbeans-2.6.0/src\/xmlinputstream"/>
+        <javaElement handleIdentifier="=poi-3.14/src\/excelant\/testcases"/>
+        <javaElement handleIdentifier="=poi-3.14/src\/java"/>
+        <javaElement handleIdentifier="=poi-3.14/src\/ooxml\/java"/>
+        <javaElement handleIdentifier="=poi-3.14/src\/excelant\/java"/>
+        <javaElement handleIdentifier="=xmlbeans-2.6.0/src\/saaj_api"/>
+        <javaElement handleIdentifier="=commons-codec-1.10-src/src\/main\/java"/>
+        <javaElement handleIdentifier="=xmlbeans-2.6.0/src\/xmlcomp"/>
+        <javaElement handleIdentifier="=xmlbeans-2.6.0/src\/marshal"/>
+        <javaElement handleIdentifier="=xmlbeans-2.6.0/src\/xmlconfig"/>
+        <javaElement handleIdentifier="=MESTRA JAVA TOOL/src"/>
+        <javaElement handleIdentifier="=poi-3.14/src\/integrationtest"/>
+        <file path="/MESTRA JAVA TOOL/JavaMestraManifest"/>
+        <javaElement handleIdentifier="=xmlbeans-2.6.0/src\/xmlpublic"/>
+        <file path="/MESTRA JAVA TOOL/JarDescription.jardesc"/>
+        <javaElement handleIdentifier="=xmlbeans-2.6.0/src\/repackage"/>
+        <folder path="/MESTRA JAVA TOOL/lib"/>
+        <javaElement handleIdentifier="=xmlbeans-2.6.0/src\/typeimpl"/>
+        <javaElement handleIdentifier="=poi-3.14/src\/contrib\/poi-ruby\/java"/>
+        <javaElement handleIdentifier="=xmlbeans-2.6.0/src\/typeholder"/>
+        <javaElement handleIdentifier="=xmlbeans-2.6.0/src\/zipcompare"/>
+        <javaElement handleIdentifier="=xmlbeans-2.6.0/src\/jamsupport"/>
+        <javaElement handleIdentifier="=poi-3.14/osgi\/src\/main\/java"/>
+        <javaElement handleIdentifier="=poi-3.14/src\/examples\/src"/>
+    </selectedElements>
+</jardesc>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA">
+  <packagedElement xmi:type="uml:Package" xmi:id="_w8IxIM37EdqwVrslYOdUDA" name="MestraIdentifier">
+    <packagedElement xmi:type="uml:Class" xmi:id="_sTy3sLAzEd2zoOcoeOx4qA" name="MestraIdentifier">
+      <generalization xmi:id="_yMQf47AzEd2zoOcoeOx4qA" general="_vSL7eLAzEd2zoOcoeOx4qA"/>
+      <ownedAttribute xmi:id="_-sj-wrAzEd2zoOcoeOx4qA" name="Name" visibility="private" type="_a9y_wLA0Ed2zoOcoeOx4qA"/>
+      <ownedOperation xmi:id="_j5NbkLA0Ed2zoOcoeOx4qA" name="IsUnique">
+        <ownedParameter xmi:id="_vPIK8LA0Ed2zoOcoeOx4qA" name="return" type="_-EvUWLA0Ed2zoOcoeOx4qA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_nHJhwrA1Ed2zoOcoeOx4qA" name="ContainsSlash">
+        <ownedParameter xmi:id="_trf_kLA1Ed2zoOcoeOx4qA" name="return" type="_-EvUWLA0Ed2zoOcoeOx4qA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_vSL7eLAzEd2zoOcoeOx4qA" name="MestraSSS">
+      <generalization xmi:id="_zUEcg7AzEd2zoOcoeOx4qA" general="_sTy3sLAzEd2zoOcoeOx4qA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_2H4n-LAzEd2zoOcoeOx4qA" name="MestraSRS">
+      <generalization xmi:id="_4IcxhLAzEd2zoOcoeOx4qA" general="_sTy3sLAzEd2zoOcoeOx4qA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_6TvkYLAzEd2zoOcoeOx4qA" name="MestraTest">
+      <generalization xmi:id="_8ZX0I7AzEd2zoOcoeOx4qA" general="_sTy3sLAzEd2zoOcoeOx4qA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_a9y_wLA0Ed2zoOcoeOx4qA" name="String"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_-EvUWLA0Ed2zoOcoeOx4qA" name="bool"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_efsHSLA2Ed2zoOcoeOx4qA" name="MestraFile"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ljycKLA2Ed2zoOcoeOx4qA" name="Association1" visibility="private" memberEnd="_ljycKbA2Ed2zoOcoeOx4qA _ljycLLA2Ed2zoOcoeOx4qA">
+      <ownedEnd xmi:id="_ljycKbA2Ed2zoOcoeOx4qA" name="mestraFile" visibility="private" type="_efsHSLA2Ed2zoOcoeOx4qA" association="_ljycKLA2Ed2zoOcoeOx4qA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ljycKrA2Ed2zoOcoeOx4qA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ljycK7A2Ed2zoOcoeOx4qA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_ljycLLA2Ed2zoOcoeOx4qA" name="mestraIdentifier" visibility="private" type="_sTy3sLAzEd2zoOcoeOx4qA" aggregation="composite" association="_ljycKLA2Ed2zoOcoeOx4qA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ljycLbA2Ed2zoOcoeOx4qA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ljycLrA2Ed2zoOcoeOx4qA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

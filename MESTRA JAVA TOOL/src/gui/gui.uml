@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_mOLKYJVZEdyRKYatapc1yg">
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_mOLKYZVZEdyRKYatapc1yg" name="boolean"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_mOLKYpVZEdyRKYatapc1yg" name="byte"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_mOLKY5VZEdyRKYatapc1yg" name="char"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_mOLKZJVZEdyRKYatapc1yg" name="double"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_mOLKZZVZEdyRKYatapc1yg" name="float"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_mOLKZpVZEdyRKYatapc1yg" name="int"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_mOLKZ5VZEdyRKYatapc1yg" name="long"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_mOLKaJVZEdyRKYatapc1yg" name="short"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_mOLKaZVZEdyRKYatapc1yg" name="gui">
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOLKapVZEdyRKYatapc1yg" name="TraceabilityTab">
+      <generalization xmi:id="_mOLKa5VZEdyRKYatapc1yg" general="_mOU8h5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKbJVZEdyRKYatapc1yg" name="serialVersionUID" visibility="private" type="_mOLKZ5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKbZVZEdyRKYatapc1yg" name="traceabilityTypeComboBox" type="_mOU8AJVZEdyRKYatapc1yg" association="_mOU8spVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKbpVZEdyRKYatapc1yg" name="traceabilityCSCIComboBox" type="_mOLK15VZEdyRKYatapc1yg" association="_mOU8s5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKb5VZEdyRKYatapc1yg" name="aConfiguration" visibility="private" type="_mOU8iJVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKcJVZEdyRKYatapc1yg" name="fc" visibility="private" type="_mOU8iZVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKcZVZEdyRKYatapc1yg" name="jUpStreamDropTable" visibility="private" type="_mOU715VZEdyRKYatapc1yg" association="_mOU8tJVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKcpVZEdyRKYatapc1yg" name="jDownStreamDropTable" visibility="private" type="_mOU715VZEdyRKYatapc1yg" association="_mOU8tpVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKc5VZEdyRKYatapc1yg" name="FileChooserButton" visibility="private" type="_mOU8ipVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKdJVZEdyRKYatapc1yg" name="RunTraceabilityButton" visibility="private" type="_mOU8ipVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKdZVZEdyRKYatapc1yg" name="mainGuiApp" visibility="private" type="_mOU8Z5VZEdyRKYatapc1yg" association="_mOU8uJVZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOLKdpVZEdyRKYatapc1yg" name="setStatusBarMessage" visibility="private">
+        <ownedParameter xmi:id="_mOLKd5VZEdyRKYatapc1yg" name="strMessage" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLKeJVZEdyRKYatapc1yg" name="getStatusBar" visibility="private">
+        <ownedParameter xmi:id="_mOLKeZVZEdyRKYatapc1yg" name="return" type="_mOU7uZVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLKepVZEdyRKYatapc1yg" name="createTraceabilityTab" visibility="private"/>
+      <ownedOperation xmi:id="_mOLKe5VZEdyRKYatapc1yg" name="getDownStreamFileType" visibility="private">
+        <ownedParameter xmi:id="_mOLKfJVZEdyRKYatapc1yg" name="return" type="_mOU8jJVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLKfZVZEdyRKYatapc1yg" name="getUpStreamFileType" visibility="private">
+        <ownedParameter xmi:id="_mOLKfpVZEdyRKYatapc1yg" name="return" type="_mOU8jJVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLKf5VZEdyRKYatapc1yg" name="launchFileChooser" visibility="private"/>
+      <ownedOperation xmi:id="_mOLKgJVZEdyRKYatapc1yg" name="launchTraceabilityAnalysis" visibility="private"/>
+      <ownedOperation xmi:id="_mOLKgZVZEdyRKYatapc1yg" name="actionPerformed" visibility="public">
+        <ownedParameter xmi:id="_mOLKgpVZEdyRKYatapc1yg" name="e" type="_mOU8jZVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLKg5VZEdyRKYatapc1yg" name="reload" visibility="public"/>
+      <ownedOperation xmi:id="_mOLKhJVZEdyRKYatapc1yg" name="updateTraceabilityType" visibility="public">
+        <ownedParameter xmi:id="_mOLKhZVZEdyRKYatapc1yg" name="strTraceabilityType" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLKhpVZEdyRKYatapc1yg" name="getConfiguration" visibility="public">
+        <ownedParameter xmi:id="_mOLKh5VZEdyRKYatapc1yg" name="return" type="_mOU8iJVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOLKiJVZEdyRKYatapc1yg" name="TraceabilityRunThread" visibility="private">
+      <generalization xmi:id="_mOLKiZVZEdyRKYatapc1yg" general="_mOU8jpVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKipVZEdyRKYatapc1yg" name="analyseFileThread" visibility="private" type="_mOU8jpVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKi5VZEdyRKYatapc1yg" name="mestraFiles" visibility="private" type="_mOU8j5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKjJVZEdyRKYatapc1yg" name="configuration" visibility="private" type="_mOU8iJVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKjZVZEdyRKYatapc1yg" name="traceabilityTab" visibility="private" type="_mOLKapVZEdyRKYatapc1yg" association="_mOU8uZVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKjpVZEdyRKYatapc1yg" name="traceabilityCSCI" visibility="private" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOLKj5VZEdyRKYatapc1yg" name="start" visibility="public"/>
+      <ownedOperation xmi:id="_mOLKkJVZEdyRKYatapc1yg" name="run" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOLKkZVZEdyRKYatapc1yg" name="ConfigurationTableView">
+      <generalization xmi:id="_mOLKkpVZEdyRKYatapc1yg" general="_mOU8h5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKk5VZEdyRKYatapc1yg" name="serialVersionUID" visibility="private" type="_mOLKZ5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKlJVZEdyRKYatapc1yg" name="view" visibility="private" type="_mOU8kJVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKlZVZEdyRKYatapc1yg" name="scroller" visibility="private" type="_mOU8kZVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKlpVZEdyRKYatapc1yg" name="tableViewColumns" visibility="private" type="_mOU8kpVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKl5VZEdyRKYatapc1yg" name="model" visibility="private" type="_mOU8k5VZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOLKmJVZEdyRKYatapc1yg" name="reload" visibility="public">
+        <ownedParameter xmi:id="_mOLKmZVZEdyRKYatapc1yg" name="aConfiguration" type="_mOU8iJVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLKmpVZEdyRKYatapc1yg" name="loadDataModel" visibility="private">
+        <ownedParameter xmi:id="_mOLKm5VZEdyRKYatapc1yg" name="aConfiguration" type="_mOU8iJVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLKnJVZEdyRKYatapc1yg" name="initTableViewColumns" visibility="private">
+        <ownedParameter xmi:id="_mOLKnZVZEdyRKYatapc1yg" name="return" type="_mOU8kpVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOLKnpVZEdyRKYatapc1yg" name="DebugTab">
+      <generalization xmi:id="_mOLKn5VZEdyRKYatapc1yg" general="_mOU8h5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKoJVZEdyRKYatapc1yg" name="serialVersionUID" visibility="private" type="_mOLKZ5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKoZVZEdyRKYatapc1yg" name="textArea" visibility="private" type="_mOU8lJVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKopVZEdyRKYatapc1yg" name="textAreaClearButton" visibility="private" type="_mOU8ipVZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOLKo5VZEdyRKYatapc1yg" name="actionPerformed" visibility="public">
+        <ownedParameter xmi:id="_mOLKpJVZEdyRKYatapc1yg" name="e" type="_mOU8jZVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLKpZVZEdyRKYatapc1yg" name="appendDebugMessage" visibility="public">
+        <ownedParameter xmi:id="_mOLKppVZEdyRKYatapc1yg" name="debugLineStr" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOLKp5VZEdyRKYatapc1yg" name="MultipleMestraChecksTab">
+      <generalization xmi:id="_mOLKqJVZEdyRKYatapc1yg" general="_mOU8h5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKqZVZEdyRKYatapc1yg" name="serialVersionUID" visibility="private" type="_mOLKZ5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKqpVZEdyRKYatapc1yg" name="fileTypeComboBox" visibility="private" type="_mOU8DJVZEdyRKYatapc1yg" association="_mOU8u5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKq5VZEdyRKYatapc1yg" name="fc" visibility="private" type="_mOU8iZVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKrJVZEdyRKYatapc1yg" name="MestraAnalysisButton" visibility="private" type="_mOU8ipVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKrZVZEdyRKYatapc1yg" name="jDropTablePanel" visibility="private" type="_mOU715VZEdyRKYatapc1yg" association="_mOU8vZVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKrpVZEdyRKYatapc1yg" name="FileChooserButton" visibility="private" type="_mOU8ipVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKr5VZEdyRKYatapc1yg" name="mainGuiApp" visibility="private" type="_mOU8Z5VZEdyRKYatapc1yg" association="_mOU8v5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKsJVZEdyRKYatapc1yg" name="aConfiguration" visibility="private" type="_mOU8iJVZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOLKsZVZEdyRKYatapc1yg" name="getConfiguration" visibility="public">
+        <ownedParameter xmi:id="_mOLKspVZEdyRKYatapc1yg" name="return" type="_mOU8iJVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLKs5VZEdyRKYatapc1yg" name="getStatusBar" visibility="private">
+        <ownedParameter xmi:id="_mOLKtJVZEdyRKYatapc1yg" name="return" type="_mOU7uZVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLKtZVZEdyRKYatapc1yg" name="writeDebugMessage" visibility="private">
+        <ownedParameter xmi:id="_mOLKtpVZEdyRKYatapc1yg" name="str" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLKt5VZEdyRKYatapc1yg" name="setStatusBarMessage" visibility="private">
+        <ownedParameter xmi:id="_mOLKuJVZEdyRKYatapc1yg" name="strMessage" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLKuZVZEdyRKYatapc1yg" name="launchFileChooser" visibility="private"/>
+      <ownedOperation xmi:id="_mOLKupVZEdyRKYatapc1yg" name="launchMestraFilesAnalysis" visibility="private"/>
+      <ownedOperation xmi:id="_mOLKu5VZEdyRKYatapc1yg" name="actionPerformed" visibility="public">
+        <ownedParameter xmi:id="_mOLKvJVZEdyRKYatapc1yg" name="e" type="_mOU8jZVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLKvZVZEdyRKYatapc1yg" name="getFileType" visibility="private">
+        <ownedParameter xmi:id="_mOLKvpVZEdyRKYatapc1yg" name="return" type="_mOU8jJVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLKv5VZEdyRKYatapc1yg" name="createMultipleMestraChecksTab" visibility="private"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOLKwJVZEdyRKYatapc1yg" name="MultipleFilesMestraAnalysisThread" visibility="private">
+      <generalization xmi:id="_mOLKwZVZEdyRKYatapc1yg" general="_mOU8jpVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKwpVZEdyRKYatapc1yg" name="analysisFilesThread" visibility="private" type="_mOU8jpVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKw5VZEdyRKYatapc1yg" name="mestraFiles" visibility="private" type="_mOU8j5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKxJVZEdyRKYatapc1yg" name="configuration" visibility="private" type="_mOU8iJVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKxZVZEdyRKYatapc1yg" name="multipleMestraChecksTab" visibility="private" type="_mOLKp5VZEdyRKYatapc1yg" association="_mOU8wJVZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOLKxpVZEdyRKYatapc1yg" name="start" visibility="public"/>
+      <ownedOperation xmi:id="_mOLKx5VZEdyRKYatapc1yg" name="run" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOLKyJVZEdyRKYatapc1yg" name="TableTransferHandler">
+      <generalization xmi:id="_mOLKyZVZEdyRKYatapc1yg" general="_mOLK9ZVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKypVZEdyRKYatapc1yg" name="serialVersionUID" visibility="private" type="_mOLKZ5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKy5VZEdyRKYatapc1yg" name="rows" visibility="private" type="_mOLKZpVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKzJVZEdyRKYatapc1yg" name="addIndex" visibility="private" type="_mOLKZpVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLKzZVZEdyRKYatapc1yg" name="addCount" visibility="private" type="_mOLKZpVZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOLKzpVZEdyRKYatapc1yg" name="exportString" visibility="protected">
+        <ownedParameter xmi:id="_mOLKz5VZEdyRKYatapc1yg" name="c" type="_mOU8lZVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLK0JVZEdyRKYatapc1yg" name="return" type="_mOU8i5VZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLK0ZVZEdyRKYatapc1yg" name="importString" visibility="protected">
+        <ownedParameter xmi:id="_mOLK0pVZEdyRKYatapc1yg" name="c" type="_mOU8lZVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLK05VZEdyRKYatapc1yg" name="str" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLK1JVZEdyRKYatapc1yg" name="cleanup" visibility="protected">
+        <ownedParameter xmi:id="_mOLK1ZVZEdyRKYatapc1yg" name="c" type="_mOU8lZVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLK1pVZEdyRKYatapc1yg" name="remove" type="_mOLKYZVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOLK15VZEdyRKYatapc1yg" name="TraceabilityCSCIComboBox">
+      <generalization xmi:id="_mOLK2JVZEdyRKYatapc1yg" general="_mOU8h5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLK2ZVZEdyRKYatapc1yg" name="serialVersionUID" visibility="private" type="_mOLKZ5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLK2pVZEdyRKYatapc1yg" name="SelectedTraceabilityCSCI" visibility="private" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLK25VZEdyRKYatapc1yg" name="traceabilityTab" visibility="private" type="_mOLKapVZEdyRKYatapc1yg" association="_mOU8s5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLK3JVZEdyRKYatapc1yg" name="comboBox" visibility="private" type="_mOU8lpVZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOLK3ZVZEdyRKYatapc1yg" name="getSelectedTraceabilityCSCI" visibility="public">
+        <ownedParameter xmi:id="_mOLK3pVZEdyRKYatapc1yg" name="return" type="_mOU8i5VZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLK35VZEdyRKYatapc1yg" name="reload" visibility="public"/>
+      <ownedOperation xmi:id="_mOLK4JVZEdyRKYatapc1yg" name="actionPerformed" visibility="public">
+        <ownedParameter xmi:id="_mOLK4ZVZEdyRKYatapc1yg" name="e" type="_mOU8jZVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLK4pVZEdyRKYatapc1yg" name="setEnabled" visibility="public">
+        <ownedParameter xmi:id="_mOLK45VZEdyRKYatapc1yg" name="trueFalse" type="_mOLKYZVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOLK5JVZEdyRKYatapc1yg" name="MainGuiSplash">
+      <ownedAttribute xmi:id="_mOLK5ZVZEdyRKYatapc1yg" name="splashWindow" visibility="private" type="_mOU79ZVZEdyRKYatapc1yg" association="_mOU8wpVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLK5pVZEdyRKYatapc1yg" name="splashWindowUpdate" visibility="private" type="_mOLK7pVZEdyRKYatapc1yg" association="_mOU8xJVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLK55VZEdyRKYatapc1yg" name="frame" visibility="private" type="_mOU8l5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLK6JVZEdyRKYatapc1yg" name="MaxProgressBarValue" type="_mOLKZpVZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOLK6ZVZEdyRKYatapc1yg" name="setLookAndFeel" visibility="private" isStatic="true">
+        <ownedParameter xmi:id="_mOLK6pVZEdyRKYatapc1yg" name="frame" type="_mOU8l5VZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLK65VZEdyRKYatapc1yg" name="createAndShowGUI" visibility="public" isStatic="true"/>
+      <ownedOperation xmi:id="_mOLK7JVZEdyRKYatapc1yg" name="main" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_mOLK7ZVZEdyRKYatapc1yg" name="args" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOLK7pVZEdyRKYatapc1yg" name="SplashWindowUpdate">
+      <generalization xmi:id="_mOLK75VZEdyRKYatapc1yg" general="_mOU8jpVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLK8JVZEdyRKYatapc1yg" name="updateThread" visibility="private" type="_mOU8jpVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLK8ZVZEdyRKYatapc1yg" name="progressBarValue" visibility="private" type="_mOLKZpVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLK8pVZEdyRKYatapc1yg" name="Continue" visibility="private" type="_mOLKYZVZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOLK85VZEdyRKYatapc1yg" name="start" visibility="public"/>
+      <ownedOperation xmi:id="_mOLK9JVZEdyRKYatapc1yg" name="run" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOLK9ZVZEdyRKYatapc1yg" name="StringTransferHandler">
+      <generalization xmi:id="_mOLK9pVZEdyRKYatapc1yg" general="_mOU8mJVZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOLK95VZEdyRKYatapc1yg" name="exportString" visibility="protected" isAbstract="true">
+        <ownedParameter xmi:id="_mOLK-JVZEdyRKYatapc1yg" name="c" type="_mOU8lZVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLK-ZVZEdyRKYatapc1yg" name="return" type="_mOU8i5VZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLK-pVZEdyRKYatapc1yg" name="importString" visibility="protected" isAbstract="true">
+        <ownedParameter xmi:id="_mOLK-5VZEdyRKYatapc1yg" name="c" type="_mOU8lZVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLK_JVZEdyRKYatapc1yg" name="str" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLK_ZVZEdyRKYatapc1yg" name="cleanup" visibility="protected" isAbstract="true">
+        <ownedParameter xmi:id="_mOLK_pVZEdyRKYatapc1yg" name="c" type="_mOU8lZVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLK_5VZEdyRKYatapc1yg" name="remove" type="_mOLKYZVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLLAJVZEdyRKYatapc1yg" name="createTransferable" visibility="protected">
+        <ownedParameter xmi:id="_mOLLAZVZEdyRKYatapc1yg" name="c" type="_mOU8lZVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLApVZEdyRKYatapc1yg" name="return" type="_mOU8mZVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLLA5VZEdyRKYatapc1yg" name="getSourceActions" visibility="public">
+        <ownedParameter xmi:id="_mOLLBJVZEdyRKYatapc1yg" name="c" type="_mOU8lZVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLBZVZEdyRKYatapc1yg" name="return" type="_mOLKZpVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLLBpVZEdyRKYatapc1yg" name="importData" visibility="public">
+        <ownedParameter xmi:id="_mOLLB5VZEdyRKYatapc1yg" name="c" type="_mOU8lZVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLCJVZEdyRKYatapc1yg" name="t" type="_mOU8mZVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLCZVZEdyRKYatapc1yg" name="return" type="_mOLKYZVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLLCpVZEdyRKYatapc1yg" name="exportDone" visibility="protected">
+        <ownedParameter xmi:id="_mOLLC5VZEdyRKYatapc1yg" name="c" type="_mOU8lZVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLDJVZEdyRKYatapc1yg" name="data" type="_mOU8mZVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLDZVZEdyRKYatapc1yg" name="action" type="_mOLKZpVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLLDpVZEdyRKYatapc1yg" name="canImport" visibility="public">
+        <ownedParameter xmi:id="_mOLLD5VZEdyRKYatapc1yg" name="c" type="_mOU8lZVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLEJVZEdyRKYatapc1yg" name="flavors" type="_mOU8mpVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLEZVZEdyRKYatapc1yg" name="return" type="_mOLKYZVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOLLEpVZEdyRKYatapc1yg" name="ColoredTableCellRenderer">
+      <generalization xmi:id="_mOLLE5VZEdyRKYatapc1yg" general="_mOU8m5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLLFJVZEdyRKYatapc1yg" name="serialVersionUID" visibility="private" type="_mOLKZ5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLLFZVZEdyRKYatapc1yg" name="URGENCY_COLOR" visibility="private" type="_mOU8nJVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLLFpVZEdyRKYatapc1yg" name="WARNING_COLOR" visibility="private" type="_mOU8nJVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLLF5VZEdyRKYatapc1yg" name="DEFAULT_BACKGROUND_COLOR" visibility="private" type="_mOU8nJVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLLGJVZEdyRKYatapc1yg" name="DEFAULT_FOREGROUND_COLOR" visibility="private" type="_mOU8nJVZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOLLGZVZEdyRKYatapc1yg" name="setValue" visibility="public">
+        <ownedParameter xmi:id="_mOLLGpVZEdyRKYatapc1yg" name="value" type="_mOU8nZVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOLLG5VZEdyRKYatapc1yg" name="MestraChecksResults">
+      <ownedOperation xmi:id="_mOLLHJVZEdyRKYatapc1yg" name="viewResults" visibility="public">
+        <ownedParameter xmi:id="_mOLLHZVZEdyRKYatapc1yg" name="mestraFile" type="_mOU8npVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLHpVZEdyRKYatapc1yg" name="aConfiguration" type="_mOU8iJVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLLH5VZEdyRKYatapc1yg" name="loadDataModel" visibility="private">
+        <ownedParameter xmi:id="_mOLLIJVZEdyRKYatapc1yg" name="BaseColumns" type="_mOU8kpVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLIZVZEdyRKYatapc1yg" name="mestraFile" type="_mOU8npVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLIpVZEdyRKYatapc1yg" name="return" type="_mOU8k5VZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLLI5VZEdyRKYatapc1yg" name="getColumnHeader" visibility="private">
+        <ownedParameter xmi:id="_mOLLJJVZEdyRKYatapc1yg" name="mestraFile" type="_mOU8npVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLJZVZEdyRKYatapc1yg" name="aConfiguration" type="_mOU8iJVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLJpVZEdyRKYatapc1yg" name="styleIndex" type="_mOLKZpVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLJ5VZEdyRKYatapc1yg" name="return" type="_mOU8i5VZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLLKJVZEdyRKYatapc1yg" name="InitBaseColumns" visibility="private">
+        <ownedParameter xmi:id="_mOLLKZVZEdyRKYatapc1yg" name="mestraFile" type="_mOU8npVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLKpVZEdyRKYatapc1yg" name="aConfiguration" type="_mOU8iJVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLK5VZEdyRKYatapc1yg" name="return" type="_mOU8kJVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOLLLJVZEdyRKYatapc1yg" name="TraceabilityComboBox">
+      <generalization xmi:id="_mOLLLZVZEdyRKYatapc1yg" general="_mOU8h5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLLLpVZEdyRKYatapc1yg" name="serialVersionUID" visibility="private" type="_mOLKZ5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLLL5VZEdyRKYatapc1yg" name="SelectedTraceabilityType" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOLLMJVZEdyRKYatapc1yg" name="actionPerformed" visibility="public">
+        <ownedParameter xmi:id="_mOLLMZVZEdyRKYatapc1yg" name="e" type="_mOU8jZVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOLLMpVZEdyRKYatapc1yg" name="ExtendedDnDDemo">
+      <generalization xmi:id="_mOLLM5VZEdyRKYatapc1yg" general="_mOU8h5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLLNJVZEdyRKYatapc1yg" name="serialVersionUID" visibility="private" type="_mOLKZ5VZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOLLNZVZEdyRKYatapc1yg" name="createList" visibility="private">
+        <ownedParameter xmi:id="_mOLLNpVZEdyRKYatapc1yg" name="return" type="_mOU8h5VZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLLN5VZEdyRKYatapc1yg" name="createArea" visibility="private">
+        <ownedParameter xmi:id="_mOLLOJVZEdyRKYatapc1yg" name="return" type="_mOU8h5VZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLLOZVZEdyRKYatapc1yg" name="createTable" visibility="private">
+        <ownedParameter xmi:id="_mOLLOpVZEdyRKYatapc1yg" name="return" type="_mOU8h5VZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLLO5VZEdyRKYatapc1yg" name="createAndShowGUI" visibility="private" isStatic="true"/>
+      <ownedOperation xmi:id="_mOLLPJVZEdyRKYatapc1yg" name="main" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_mOLLPZVZEdyRKYatapc1yg" name="args" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOLLPpVZEdyRKYatapc1yg" name="ColorColumnRenderer">
+      <generalization xmi:id="_mOLLP5VZEdyRKYatapc1yg" general="_mOU8m5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLLQJVZEdyRKYatapc1yg" name="serialVersionUID" visibility="private" type="_mOLKZ5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLLQZVZEdyRKYatapc1yg" name="bkgndColor" type="_mOU8nJVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLLQpVZEdyRKYatapc1yg" name="fgndColor" type="_mOU8nJVZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOLLQ5VZEdyRKYatapc1yg" name="getTableCellRendererComponent" visibility="public">
+        <ownedParameter xmi:id="_mOLLRJVZEdyRKYatapc1yg" name="table" type="_mOU8n5VZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLRZVZEdyRKYatapc1yg" name="value" type="_mOU8nZVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLRpVZEdyRKYatapc1yg" name="isSelected" type="_mOLKYZVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLR5VZEdyRKYatapc1yg" name="hasFocus" type="_mOLKYZVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLSJVZEdyRKYatapc1yg" name="row" type="_mOLKZpVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLSZVZEdyRKYatapc1yg" name="column" type="_mOLKZpVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLSpVZEdyRKYatapc1yg" name="return" type="_mOU8oJVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOLLS5VZEdyRKYatapc1yg" name="ListTransferHandler">
+      <generalization xmi:id="_mOLLTJVZEdyRKYatapc1yg" general="_mOLK9ZVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLLTZVZEdyRKYatapc1yg" name="serialVersionUID" visibility="private" type="_mOLKZ5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLLTpVZEdyRKYatapc1yg" name="indices" visibility="private" type="_mOLKZpVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLLT5VZEdyRKYatapc1yg" name="addIndex" visibility="private" type="_mOLKZpVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLLUJVZEdyRKYatapc1yg" name="addCount" visibility="private" type="_mOLKZpVZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOLLUZVZEdyRKYatapc1yg" name="exportString" visibility="protected">
+        <ownedParameter xmi:id="_mOLLUpVZEdyRKYatapc1yg" name="c" type="_mOU8lZVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLU5VZEdyRKYatapc1yg" name="return" type="_mOU8i5VZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLLVJVZEdyRKYatapc1yg" name="importString" visibility="protected">
+        <ownedParameter xmi:id="_mOLLVZVZEdyRKYatapc1yg" name="c" type="_mOU8lZVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLVpVZEdyRKYatapc1yg" name="str" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLLV5VZEdyRKYatapc1yg" name="cleanup" visibility="protected">
+        <ownedParameter xmi:id="_mOLLWJVZEdyRKYatapc1yg" name="c" type="_mOU8lZVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLWZVZEdyRKYatapc1yg" name="remove" type="_mOLKYZVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOLLWpVZEdyRKYatapc1yg" name="TraceabilityResults">
+      <ownedAttribute xmi:id="_mOLLW5VZEdyRKYatapc1yg" name="viewUpDown" visibility="private" type="_mOU8kJVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOLLXJVZEdyRKYatapc1yg" name="viewDownUp" visibility="private" type="_mOU8kJVZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOLLXZVZEdyRKYatapc1yg" name="viewResults" visibility="public">
+        <ownedParameter xmi:id="_mOLLXpVZEdyRKYatapc1yg" name="mestraFiles" type="_mOU8j5VZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLX5VZEdyRKYatapc1yg" name="aConfiguration" type="_mOU8iJVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLLYJVZEdyRKYatapc1yg" name="loadDataModel" visibility="private">
+        <ownedParameter xmi:id="_mOLLYZVZEdyRKYatapc1yg" name="BaseColumns" type="_mOU8kpVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLYpVZEdyRKYatapc1yg" name="mestraFiles" type="_mOU8j5VZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLY5VZEdyRKYatapc1yg" name="traceUpDown" type="_mOU7cJVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLZJVZEdyRKYatapc1yg" name="return" type="_mOU8k5VZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLLZZVZEdyRKYatapc1yg" name="initColumnHeadersFor_SRS_TS" visibility="private">
+        <ownedParameter xmi:id="_mOLLZpVZEdyRKYatapc1yg" name="mestraFiles" type="_mOU8j5VZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLZ5VZEdyRKYatapc1yg" name="return" type="_mOU8kJVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLLaJVZEdyRKYatapc1yg" name="initColumnHeadersFor_TS_SRS" visibility="private">
+        <ownedParameter xmi:id="_mOLLaZVZEdyRKYatapc1yg" name="mestraFiles" type="_mOU8j5VZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLapVZEdyRKYatapc1yg" name="return" type="_mOU8kJVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLLa5VZEdyRKYatapc1yg" name="initColumnHeadersFor_SRS_SSS" visibility="private">
+        <ownedParameter xmi:id="_mOLLbJVZEdyRKYatapc1yg" name="mestraFiles" type="_mOU8j5VZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLbZVZEdyRKYatapc1yg" name="return" type="_mOU8kJVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLLbpVZEdyRKYatapc1yg" name="initColumnHeadersFor_SSS_SRS" visibility="private">
+        <ownedParameter xmi:id="_mOLLb5VZEdyRKYatapc1yg" name="mestraFiles" type="_mOU8j5VZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLcJVZEdyRKYatapc1yg" name="return" type="_mOU8kJVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLLcZVZEdyRKYatapc1yg" name="initColumnHeadersFor_SRS_SDD" visibility="private">
+        <ownedParameter xmi:id="_mOLLcpVZEdyRKYatapc1yg" name="mestraFiles" type="_mOU8j5VZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLc5VZEdyRKYatapc1yg" name="return" type="_mOU8kJVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOLLdJVZEdyRKYatapc1yg" name="initColumnHeadersFor_SDD_SRS" visibility="private">
+        <ownedParameter xmi:id="_mOLLdZVZEdyRKYatapc1yg" name="mestraFiles" type="_mOU8j5VZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOLLdpVZEdyRKYatapc1yg" name="return" type="_mOU8kJVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU7YJVZEdyRKYatapc1yg" name="initView" visibility="private">
+        <ownedParameter xmi:id="_mOU7YZVZEdyRKYatapc1yg" name="mestraFiles" type="_mOU8j5VZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOU7YpVZEdyRKYatapc1yg" name="aConfiguration" type="_mOU8iJVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOU7Y5VZEdyRKYatapc1yg" name="traceUpDown" type="_mOU7cJVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOU7ZJVZEdyRKYatapc1yg" name="return" type="_mOU8kJVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU7ZZVZEdyRKYatapc1yg" name="createFrame" visibility="private">
+        <ownedParameter xmi:id="_mOU7ZpVZEdyRKYatapc1yg" name="FrameTitle" type="_mOU8i5VZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOU7Z5VZEdyRKYatapc1yg" name="traceUpDown" type="_mOU7cJVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU7aJVZEdyRKYatapc1yg" name="createUpDownFrame" visibility="private">
+        <ownedParameter xmi:id="_mOU7aZVZEdyRKYatapc1yg" name="mestraFiles" type="_mOU8j5VZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU7apVZEdyRKYatapc1yg" name="createDownUpFrame" visibility="private">
+        <ownedParameter xmi:id="_mOU7a5VZEdyRKYatapc1yg" name="mestraFiles" type="_mOU8j5VZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU7bJVZEdyRKYatapc1yg" name="getFrameTitle" visibility="private">
+        <ownedParameter xmi:id="_mOU7bZVZEdyRKYatapc1yg" name="mestraFiles" type="_mOU8j5VZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOU7bpVZEdyRKYatapc1yg" name="traceUpDown" type="_mOU7cJVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOU7b5VZEdyRKYatapc1yg" name="return" type="_mOU8i5VZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOU7cJVZEdyRKYatapc1yg" name="TraceUpDownEnum" visibility="private">
+      <ownedAttribute xmi:id="_mOU7cZVZEdyRKYatapc1yg" name="UpDown" type="_mOU7cJVZEdyRKYatapc1yg" association="_mOU8yJVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU7cpVZEdyRKYatapc1yg" name="DownUp" type="_mOU7cJVZEdyRKYatapc1yg" association="_mOU8xpVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU7c5VZEdyRKYatapc1yg" name="UpDown" type="_mOU7cJVZEdyRKYatapc1yg" association="_mOU8x5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU7dJVZEdyRKYatapc1yg" name="DownUp" type="_mOU7cJVZEdyRKYatapc1yg" association="_mOU8yJVZEdyRKYatapc1yg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOU7dZVZEdyRKYatapc1yg" name="FileChooserFileFilter">
+      <generalization xmi:id="_mOU7dpVZEdyRKYatapc1yg" general="_mOU8oZVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU7d5VZEdyRKYatapc1yg" name="filters" visibility="private" type="_mOU8opVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU7eJVZEdyRKYatapc1yg" name="description" visibility="private" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU7eZVZEdyRKYatapc1yg" name="fullDescription" visibility="private" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU7epVZEdyRKYatapc1yg" name="useExtensionsInDescription" visibility="private" type="_mOLKYZVZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOU7e5VZEdyRKYatapc1yg" name="accept" visibility="public">
+        <ownedParameter xmi:id="_mOU7fJVZEdyRKYatapc1yg" name="f" type="_mOU8o5VZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOU7fZVZEdyRKYatapc1yg" name="return" type="_mOLKYZVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU7fpVZEdyRKYatapc1yg" name="getExtension" visibility="public">
+        <ownedParameter xmi:id="_mOU7f5VZEdyRKYatapc1yg" name="f" type="_mOU8o5VZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOU7gJVZEdyRKYatapc1yg" name="return" type="_mOU8i5VZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU7gZVZEdyRKYatapc1yg" name="addExtension" visibility="public">
+        <ownedParameter xmi:id="_mOU7gpVZEdyRKYatapc1yg" name="extension" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU7g5VZEdyRKYatapc1yg" name="getDescription" visibility="public">
+        <ownedParameter xmi:id="_mOU7hJVZEdyRKYatapc1yg" name="return" type="_mOU8i5VZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU7hZVZEdyRKYatapc1yg" name="setDescription" visibility="public">
+        <ownedParameter xmi:id="_mOU7hpVZEdyRKYatapc1yg" name="description" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU7h5VZEdyRKYatapc1yg" name="setExtensionListInDescription" visibility="public">
+        <ownedParameter xmi:id="_mOU7iJVZEdyRKYatapc1yg" name="b" type="_mOLKYZVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU7iZVZEdyRKYatapc1yg" name="isExtensionListInDescription" visibility="public">
+        <ownedParameter xmi:id="_mOU7ipVZEdyRKYatapc1yg" name="return" type="_mOLKYZVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOU7i5VZEdyRKYatapc1yg" name="MestraTraceabilityResults">
+      <ownedAttribute xmi:id="_mOU7jJVZEdyRKYatapc1yg" name="viewUpDown" visibility="private" type="_mOU8kJVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU7jZVZEdyRKYatapc1yg" name="viewDownUp" visibility="private" type="_mOU8kJVZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOU7jpVZEdyRKYatapc1yg" name="viewResults" visibility="public">
+        <ownedParameter xmi:id="_mOU7j5VZEdyRKYatapc1yg" name="mestraFiles" type="_mOU8j5VZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOU7kJVZEdyRKYatapc1yg" name="aConfiguration" type="_mOU8iJVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU7kZVZEdyRKYatapc1yg" name="loadDataModel" visibility="private">
+        <ownedParameter xmi:id="_mOU7kpVZEdyRKYatapc1yg" name="BaseColumns" type="_mOU8kpVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOU7k5VZEdyRKYatapc1yg" name="mestraFiles" type="_mOU8j5VZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOU7lJVZEdyRKYatapc1yg" name="traceUpDown" type="_mOU7cJVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOU7lZVZEdyRKYatapc1yg" name="return" type="_mOU8k5VZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU7lpVZEdyRKYatapc1yg" name="initColumnHeadersFor_SRS_SSS" visibility="private">
+        <ownedParameter xmi:id="_mOU7l5VZEdyRKYatapc1yg" name="mestraFiles" type="_mOU8j5VZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOU7mJVZEdyRKYatapc1yg" name="return" type="_mOU8kJVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU7mZVZEdyRKYatapc1yg" name="initColumnHeadersFor_SSS_SRS" visibility="private">
+        <ownedParameter xmi:id="_mOU7mpVZEdyRKYatapc1yg" name="mestraFiles" type="_mOU8j5VZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOU7m5VZEdyRKYatapc1yg" name="return" type="_mOU8kJVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU7nJVZEdyRKYatapc1yg" name="initView" visibility="private">
+        <ownedParameter xmi:id="_mOU7nZVZEdyRKYatapc1yg" name="mestraFiles" type="_mOU8j5VZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOU7npVZEdyRKYatapc1yg" name="aConfiguration" type="_mOU8iJVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOU7n5VZEdyRKYatapc1yg" name="traceUpDown" type="_mOU7cJVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOU7oJVZEdyRKYatapc1yg" name="return" type="_mOU8kJVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU7oZVZEdyRKYatapc1yg" name="createFrame" visibility="private">
+        <ownedParameter xmi:id="_mOU7opVZEdyRKYatapc1yg" name="FrameTitle" type="_mOU8i5VZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOU7o5VZEdyRKYatapc1yg" name="traceUpDown" type="_mOU7cJVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU7pJVZEdyRKYatapc1yg" name="createUpDownFrame" visibility="private">
+        <ownedParameter xmi:id="_mOU7pZVZEdyRKYatapc1yg" name="mestraFiles" type="_mOU8j5VZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU7ppVZEdyRKYatapc1yg" name="createDownUpFrame" visibility="private">
+        <ownedParameter xmi:id="_mOU7p5VZEdyRKYatapc1yg" name="mestraFiles" type="_mOU8j5VZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU7qJVZEdyRKYatapc1yg" name="getFrameTitle" visibility="private">
+        <ownedParameter xmi:id="_mOU7qZVZEdyRKYatapc1yg" name="mestraFiles" type="_mOU8j5VZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOU7qpVZEdyRKYatapc1yg" name="traceUpDown" type="_mOU7cJVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOU7q5VZEdyRKYatapc1yg" name="return" type="_mOU8i5VZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOU7rJVZEdyRKYatapc1yg" name="TraceUpDownEnum" visibility="private"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOU7rZVZEdyRKYatapc1yg" name="TextAreaDropTarget">
+      <ownedAttribute xmi:id="_mOU7rpVZEdyRKYatapc1yg" name="textArea" type="_mOU8lJVZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOU7r5VZEdyRKYatapc1yg" name="dragEnter" visibility="public">
+        <ownedParameter xmi:id="_mOU7sJVZEdyRKYatapc1yg" name="dtde" type="_mOU8pJVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU7sZVZEdyRKYatapc1yg" name="dragExit" visibility="public">
+        <ownedParameter xmi:id="_mOU7spVZEdyRKYatapc1yg" name="dte" type="_mOU8pZVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU7s5VZEdyRKYatapc1yg" name="dragOver" visibility="public">
+        <ownedParameter xmi:id="_mOU7tJVZEdyRKYatapc1yg" name="dtde" type="_mOU8pJVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU7tZVZEdyRKYatapc1yg" name="drop" visibility="public">
+        <ownedParameter xmi:id="_mOU7tpVZEdyRKYatapc1yg" name="dtde" type="_mOU8ppVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU7t5VZEdyRKYatapc1yg" name="dropActionChanged" visibility="public">
+        <ownedParameter xmi:id="_mOU7uJVZEdyRKYatapc1yg" name="dtde" type="_mOU8pJVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOU7uZVZEdyRKYatapc1yg" name="StatusBar">
+      <generalization xmi:id="_mOU7upVZEdyRKYatapc1yg" general="_mOU8lZVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU7u5VZEdyRKYatapc1yg" name="serialVersionUID" visibility="private" type="_mOLKZ5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU7vJVZEdyRKYatapc1yg" name="progress" visibility="private" type="_mOU8p5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU7vZVZEdyRKYatapc1yg" name="mainGuiApp" visibility="private" type="_mOU8Z5VZEdyRKYatapc1yg" association="_mOU8yZVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU7vpVZEdyRKYatapc1yg" name="progressBarValue" visibility="private" type="_mOLKZpVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU7v5VZEdyRKYatapc1yg" name="progressBarMaxValue" visibility="private" type="_mOLKZpVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU7wJVZEdyRKYatapc1yg" name="clock" visibility="private" type="_mOU7z5VZEdyRKYatapc1yg" association="_mOU8ypVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU7wZVZEdyRKYatapc1yg" name="message" visibility="private" type="_mOU8qJVZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOU7wpVZEdyRKYatapc1yg" name="startProgressBarRunner" visibility="public"/>
+      <ownedOperation xmi:id="_mOU7w5VZEdyRKYatapc1yg" name="config" visibility="private" isStatic="true">
+        <ownedParameter xmi:id="_mOU7xJVZEdyRKYatapc1yg" name="label" type="_mOU8qJVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU7xZVZEdyRKYatapc1yg" name="setMessage" visibility="public">
+        <ownedParameter xmi:id="_mOU7xpVZEdyRKYatapc1yg" name="aMessage" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU7x5VZEdyRKYatapc1yg" name="setProgressBarMaxValue" visibility="public">
+        <ownedParameter xmi:id="_mOU7yJVZEdyRKYatapc1yg" name="maxValue" type="_mOLKZpVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU7yZVZEdyRKYatapc1yg" name="setProgressBarValue" visibility="public">
+        <ownedParameter xmi:id="_mOU7ypVZEdyRKYatapc1yg" name="Value" type="_mOLKZpVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOU7y5VZEdyRKYatapc1yg" name="ProgressBarRunner">
+      <ownedAttribute xmi:id="_mOU7zJVZEdyRKYatapc1yg" name="progressBarRunner" visibility="private" type="_mOU8jpVZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOU7zZVZEdyRKYatapc1yg" name="start" visibility="public"/>
+      <ownedOperation xmi:id="_mOU7zpVZEdyRKYatapc1yg" name="run" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOU7z5VZEdyRKYatapc1yg" name="InternalClock">
+      <generalization xmi:id="_mOU70JVZEdyRKYatapc1yg" general="_mOU8qJVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU70ZVZEdyRKYatapc1yg" name="serialVersionUID" visibility="private" type="_mOLKZ5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU70pVZEdyRKYatapc1yg" name="updateHourThread" visibility="private" type="_mOU8jpVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU705VZEdyRKYatapc1yg" name="CurrentTime" visibility="private" type="_mOU8qZVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU71JVZEdyRKYatapc1yg" name="formatHeure" visibility="private" type="_mOU8qpVZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOU71ZVZEdyRKYatapc1yg" name="setHour" visibility="public"/>
+      <ownedOperation xmi:id="_mOU71pVZEdyRKYatapc1yg" name="run" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOU715VZEdyRKYatapc1yg" name="JDropTablePanel">
+      <generalization xmi:id="_mOU72JVZEdyRKYatapc1yg" general="_mOU8h5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU72ZVZEdyRKYatapc1yg" name="serialVersionUID" visibility="private" type="_mOLKZ5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU72pVZEdyRKYatapc1yg" name="view" visibility="private" type="_mOU8kJVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU725VZEdyRKYatapc1yg" name="mestraFileType" visibility="private" type="_mOU8jJVZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOU73JVZEdyRKYatapc1yg" name="setMestraFileType" visibility="public">
+        <ownedParameter xmi:id="_mOU73ZVZEdyRKYatapc1yg" name="pMestraFileType" type="_mOU8jJVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU73pVZEdyRKYatapc1yg" name="loadDataModel" visibility="private">
+        <ownedParameter xmi:id="_mOU735VZEdyRKYatapc1yg" name="BaseColumns" type="_mOU8kpVZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOU74JVZEdyRKYatapc1yg" name="return" type="_mOU8k5VZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU74ZVZEdyRKYatapc1yg" name="InitTableColumns" visibility="public">
+        <ownedParameter xmi:id="_mOU74pVZEdyRKYatapc1yg" name="return" type="_mOU8kJVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU745VZEdyRKYatapc1yg" name="dragEnter" visibility="public">
+        <ownedParameter xmi:id="_mOU75JVZEdyRKYatapc1yg" name="dtde" type="_mOU8pJVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU75ZVZEdyRKYatapc1yg" name="dragExit" visibility="public">
+        <ownedParameter xmi:id="_mOU75pVZEdyRKYatapc1yg" name="dte" type="_mOU8pZVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU755VZEdyRKYatapc1yg" name="dragOver" visibility="public">
+        <ownedParameter xmi:id="_mOU76JVZEdyRKYatapc1yg" name="dtde" type="_mOU8pJVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU76ZVZEdyRKYatapc1yg" name="AlreadyIn" visibility="private">
+        <ownedParameter xmi:id="_mOU76pVZEdyRKYatapc1yg" name="model" type="_mOU8k5VZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOU765VZEdyRKYatapc1yg" name="FileName" type="_mOU8i5VZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOU77JVZEdyRKYatapc1yg" name="return" type="_mOLKYZVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU77ZVZEdyRKYatapc1yg" name="drop" visibility="public">
+        <ownedParameter xmi:id="_mOU77pVZEdyRKYatapc1yg" name="dtde" type="_mOU8ppVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU775VZEdyRKYatapc1yg" name="dropActionChanged" visibility="public">
+        <ownedParameter xmi:id="_mOU78JVZEdyRKYatapc1yg" name="dtde" type="_mOU8pJVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU78ZVZEdyRKYatapc1yg" name="getMestraFileTableList" visibility="public">
+        <ownedParameter xmi:id="_mOU78pVZEdyRKYatapc1yg" name="return" type="_mOU8q5VZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU785VZEdyRKYatapc1yg" name="getRowCount" visibility="public">
+        <ownedParameter xmi:id="_mOU79JVZEdyRKYatapc1yg" name="return" type="_mOLKZpVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOU79ZVZEdyRKYatapc1yg" name="SplashWindow">
+      <generalization xmi:id="_mOU79pVZEdyRKYatapc1yg" general="_mOU8l5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU795VZEdyRKYatapc1yg" name="serialVersionUID" visibility="private" type="_mOLKZ5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU7-JVZEdyRKYatapc1yg" name="progressBar" visibility="private" type="_mOU8rJVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU7-ZVZEdyRKYatapc1yg" name="maxValue" visibility="private" type="_mOLKZpVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU7-pVZEdyRKYatapc1yg" name="closerRunner" type="_mOU8rZVZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOU7-5VZEdyRKYatapc1yg" name="getURL" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_mOU7_JVZEdyRKYatapc1yg" name="jpgFileName" type="_mOU8i5VZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOU7_ZVZEdyRKYatapc1yg" name="return" type="_mOU8rpVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU7_pVZEdyRKYatapc1yg" name="setProgressValue" visibility="public">
+        <ownedParameter xmi:id="_mOU7_5VZEdyRKYatapc1yg" name="value" type="_mOLKZpVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOU8AJVZEdyRKYatapc1yg" name="TraceabilityTypeComboBox">
+      <generalization xmi:id="_mOU8AZVZEdyRKYatapc1yg" general="_mOU8h5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8ApVZEdyRKYatapc1yg" name="serialVersionUID" visibility="private" type="_mOLKZ5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8A5VZEdyRKYatapc1yg" name="SelectedTraceabilityType" visibility="private" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8BJVZEdyRKYatapc1yg" name="traceabilityTab" visibility="private" type="_mOLKapVZEdyRKYatapc1yg" association="_mOU8spVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8BZVZEdyRKYatapc1yg" name="mestraScenario" visibility="private" type="_mOU8r5VZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOU8BpVZEdyRKYatapc1yg" name="getSelectedTraceabilityType" visibility="public">
+        <ownedParameter xmi:id="_mOU8B5VZEdyRKYatapc1yg" name="return" type="_mOU8i5VZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU8CJVZEdyRKYatapc1yg" name="actionPerformed" visibility="public">
+        <ownedParameter xmi:id="_mOU8CZVZEdyRKYatapc1yg" name="e" type="_mOU8jZVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU8CpVZEdyRKYatapc1yg" name="getMestraScenario" visibility="public">
+        <ownedParameter xmi:id="_mOU8C5VZEdyRKYatapc1yg" name="return" type="_mOU8r5VZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOU8DJVZEdyRKYatapc1yg" name="FileTypeComboBox">
+      <generalization xmi:id="_mOU8DZVZEdyRKYatapc1yg" general="_mOU8h5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8DpVZEdyRKYatapc1yg" name="serialVersionUID" visibility="private" type="_mOLKZ5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8D5VZEdyRKYatapc1yg" name="SelectedFileType" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOU8EJVZEdyRKYatapc1yg" name="actionPerformed" visibility="public">
+        <ownedParameter xmi:id="_mOU8EZVZEdyRKYatapc1yg" name="e" type="_mOU8jZVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU8EpVZEdyRKYatapc1yg" name="getSelectedFileType" visibility="public">
+        <ownedParameter xmi:id="_mOU8E5VZEdyRKYatapc1yg" name="return" type="_mOU8i5VZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU8FJVZEdyRKYatapc1yg" name="createAndShowGUI" visibility="private" isStatic="true"/>
+      <ownedOperation xmi:id="_mOU8FZVZEdyRKYatapc1yg" name="main" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_mOU8FpVZEdyRKYatapc1yg" name="args" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOU8F5VZEdyRKYatapc1yg" name="JDropLabel">
+      <generalization xmi:id="_mOU8GJVZEdyRKYatapc1yg" general="_mOU8h5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8GZVZEdyRKYatapc1yg" name="serialVersionUID" visibility="private" type="_mOLKZ5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8GpVZEdyRKYatapc1yg" name="mestraChecksTab" visibility="private" type="_mOU8QJVZEdyRKYatapc1yg" association="_mOU8zJVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8G5VZEdyRKYatapc1yg" name="tl" visibility="private" type="_mOU8qJVZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOU8HJVZEdyRKYatapc1yg" name="getText" visibility="public">
+        <ownedParameter xmi:id="_mOU8HZVZEdyRKYatapc1yg" name="return" type="_mOU8i5VZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOU8HpVZEdyRKYatapc1yg" name="FilesTable">
+      <ownedAttribute xmi:id="_mOU8H5VZEdyRKYatapc1yg" name="filesTable" visibility="private" type="_mOU8q5VZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOU8IJVZEdyRKYatapc1yg" name="getFilesTable" visibility="public">
+        <ownedParameter xmi:id="_mOU8IZVZEdyRKYatapc1yg" name="return" type="_mOU8q5VZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU8IpVZEdyRKYatapc1yg" name="setFilesTable" visibility="public">
+        <ownedParameter xmi:id="_mOU8I5VZEdyRKYatapc1yg" name="filesTable" type="_mOU8q5VZEdyRKYatapc1yg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOU8JJVZEdyRKYatapc1yg" name="ConfigurationTab">
+      <generalization xmi:id="_mOU8JZVZEdyRKYatapc1yg" general="_mOU8h5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8JpVZEdyRKYatapc1yg" name="serialVersionUID" visibility="private" type="_mOLKZ5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8J5VZEdyRKYatapc1yg" name="FileChooserButton" visibility="private" type="_mOU8ipVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8KJVZEdyRKYatapc1yg" name="LoadConfigurationFileButton" visibility="private" type="_mOU8ipVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8KZVZEdyRKYatapc1yg" name="ExcelConfigurationFilePath" visibility="private" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8KpVZEdyRKYatapc1yg" name="aConfiguration" visibility="private" type="_mOU8iJVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8K5VZEdyRKYatapc1yg" name="jFCframe" visibility="private" type="_mOU8l5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8LJVZEdyRKYatapc1yg" name="textFileDropArea" visibility="private" type="_mOU8lJVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8LZVZEdyRKYatapc1yg" name="configurationTableView" visibility="private" type="_mOLKkZVZEdyRKYatapc1yg" association="_mOU8zZVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8LpVZEdyRKYatapc1yg" name="mainGuiApp" visibility="private" type="_mOU8Z5VZEdyRKYatapc1yg" association="_mOU8z5VZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOU8L5VZEdyRKYatapc1yg" name="GetConfiguration" visibility="public">
+        <ownedParameter xmi:id="_mOU8MJVZEdyRKYatapc1yg" name="return" type="_mOU8iJVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU8MZVZEdyRKYatapc1yg" name="writeDebugMessage" visibility="private">
+        <ownedParameter xmi:id="_mOU8MpVZEdyRKYatapc1yg" name="str" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU8M5VZEdyRKYatapc1yg" name="setStatusBarMessage" visibility="private">
+        <ownedParameter xmi:id="_mOU8NJVZEdyRKYatapc1yg" name="strMessage" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU8NZVZEdyRKYatapc1yg" name="getStatusBar" visibility="private">
+        <ownedParameter xmi:id="_mOU8NpVZEdyRKYatapc1yg" name="return" type="_mOU7uZVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU8N5VZEdyRKYatapc1yg" name="LoadConfigurationSheet" visibility="private"/>
+      <ownedOperation xmi:id="_mOU8OJVZEdyRKYatapc1yg" name="CreateConfigurationTab" visibility="private"/>
+      <ownedOperation xmi:id="_mOU8OZVZEdyRKYatapc1yg" name="actionPerformed" visibility="public">
+        <ownedParameter xmi:id="_mOU8OpVZEdyRKYatapc1yg" name="e" type="_mOU8jZVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOU8O5VZEdyRKYatapc1yg" name="ConfigurationFileThread" visibility="private">
+      <generalization xmi:id="_mOU8PJVZEdyRKYatapc1yg" general="_mOU8jpVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8PZVZEdyRKYatapc1yg" name="configurationFileThread" visibility="private" type="_mOU8jpVZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOU8PpVZEdyRKYatapc1yg" name="start" visibility="public"/>
+      <ownedOperation xmi:id="_mOU8P5VZEdyRKYatapc1yg" name="run" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOU8QJVZEdyRKYatapc1yg" name="MestraChecksTab">
+      <generalization xmi:id="_mOU8QZVZEdyRKYatapc1yg" general="_mOU8h5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8QpVZEdyRKYatapc1yg" name="serialVersionUID" visibility="private" type="_mOLKZ5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8Q5VZEdyRKYatapc1yg" name="fileTypeComboBox" visibility="private" type="_mOU8DJVZEdyRKYatapc1yg" association="_mOU80JVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8RJVZEdyRKYatapc1yg" name="fc" visibility="private" type="_mOU8iZVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8RZVZEdyRKYatapc1yg" name="jDropLabel" visibility="private" type="_mOU8F5VZEdyRKYatapc1yg" association="_mOU8zJVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8RpVZEdyRKYatapc1yg" name="reloadMestraFileButton" visibility="private" type="_mOU8ipVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8R5VZEdyRKYatapc1yg" name="jExcelOutputPathLabel" visibility="private" type="_mOU8qJVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8SJVZEdyRKYatapc1yg" name="mainGuiApp" visibility="private" type="_mOU8Z5VZEdyRKYatapc1yg" association="_mOU80pVZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOU8SZVZEdyRKYatapc1yg" name="getConfiguration" visibility="public">
+        <ownedParameter xmi:id="_mOU8SpVZEdyRKYatapc1yg" name="return" type="_mOU8iJVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU8S5VZEdyRKYatapc1yg" name="writeDebugMessage" visibility="private">
+        <ownedParameter xmi:id="_mOU8TJVZEdyRKYatapc1yg" name="str" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU8TZVZEdyRKYatapc1yg" name="setStatusBarMessage" visibility="private">
+        <ownedParameter xmi:id="_mOU8TpVZEdyRKYatapc1yg" name="strMessage" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU8T5VZEdyRKYatapc1yg" name="getStatusBar" visibility="private">
+        <ownedParameter xmi:id="_mOU8UJVZEdyRKYatapc1yg" name="return" type="_mOU7uZVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU8UZVZEdyRKYatapc1yg" name="analyseMestraFile" visibility="public">
+        <ownedParameter xmi:id="_mOU8UpVZEdyRKYatapc1yg" name="fileToAnalyse" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU8U5VZEdyRKYatapc1yg" name="createMestraChecksTab" visibility="private"/>
+      <ownedOperation xmi:id="_mOU8VJVZEdyRKYatapc1yg" name="getSelectedFileType" visibility="public">
+        <ownedParameter xmi:id="_mOU8VZVZEdyRKYatapc1yg" name="return" type="_mOU8i5VZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU8VpVZEdyRKYatapc1yg" name="actionPerformed" visibility="public">
+        <ownedParameter xmi:id="_mOU8V5VZEdyRKYatapc1yg" name="e" type="_mOU8jZVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOU8WJVZEdyRKYatapc1yg" name="AnalyseFileThread" visibility="private">
+      <generalization xmi:id="_mOU8WZVZEdyRKYatapc1yg" general="_mOU8jpVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8WpVZEdyRKYatapc1yg" name="analyseFileThread" visibility="private" type="_mOU8jpVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8W5VZEdyRKYatapc1yg" name="mestraFile" visibility="private" type="_mOU8npVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8XJVZEdyRKYatapc1yg" name="configuration" visibility="private" type="_mOU8iJVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8XZVZEdyRKYatapc1yg" name="mestraChecksTab" visibility="private" type="_mOU8QJVZEdyRKYatapc1yg" association="_mOU805VZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOU8XpVZEdyRKYatapc1yg" name="start" visibility="public"/>
+      <ownedOperation xmi:id="_mOU8X5VZEdyRKYatapc1yg" name="run" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOU8YJVZEdyRKYatapc1yg" name="FileTable">
+      <generalization xmi:id="_mOU8YZVZEdyRKYatapc1yg" general="_mOU8npVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8YpVZEdyRKYatapc1yg" name="analysed" visibility="private" type="_mOLKYZVZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOU8Y5VZEdyRKYatapc1yg" name="isAnalysed" visibility="public">
+        <ownedParameter xmi:id="_mOU8ZJVZEdyRKYatapc1yg" name="return" type="_mOLKYZVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU8ZZVZEdyRKYatapc1yg" name="setAnalysed" visibility="public">
+        <ownedParameter xmi:id="_mOU8ZpVZEdyRKYatapc1yg" name="analysed" type="_mOLKYZVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOU8Z5VZEdyRKYatapc1yg" name="MainGuiApp">
+      <generalization xmi:id="_mOU8aJVZEdyRKYatapc1yg" general="_mOU8h5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8aZVZEdyRKYatapc1yg" name="serialVersionUID" visibility="private" type="_mOLKZ5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8apVZEdyRKYatapc1yg" name="ExcelConfigurationFilePath" visibility="private" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8a5VZEdyRKYatapc1yg" name="aConfiguration" visibility="private" type="_mOU8iJVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8bJVZEdyRKYatapc1yg" name="statusBar" visibility="private" type="_mOU7uZVZEdyRKYatapc1yg" association="_mOU8yZVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8bZVZEdyRKYatapc1yg" name="configurationTab" visibility="private" type="_mOU8JJVZEdyRKYatapc1yg" association="_mOU8z5VZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8bpVZEdyRKYatapc1yg" name="mestraChecksTab" visibility="private" type="_mOU8QJVZEdyRKYatapc1yg" association="_mOU80pVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8b5VZEdyRKYatapc1yg" name="traceabilityTab" visibility="private" type="_mOLKapVZEdyRKYatapc1yg" association="_mOU8uJVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8cJVZEdyRKYatapc1yg" name="debugTab" visibility="private" type="_mOLKnpVZEdyRKYatapc1yg" association="_mOU81ZVZEdyRKYatapc1yg"/>
+      <ownedAttribute xmi:id="_mOU8cZVZEdyRKYatapc1yg" name="multipleMestraChecksTab" visibility="private" type="_mOLKp5VZEdyRKYatapc1yg" association="_mOU8v5VZEdyRKYatapc1yg"/>
+      <ownedOperation xmi:id="_mOU8cpVZEdyRKYatapc1yg" name="setConfiguration" visibility="public">
+        <ownedParameter xmi:id="_mOU8c5VZEdyRKYatapc1yg" name="configuration" type="_mOU8iJVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU8dJVZEdyRKYatapc1yg" name="getConfiguration" visibility="public">
+        <ownedParameter xmi:id="_mOU8dZVZEdyRKYatapc1yg" name="return" type="_mOU8iJVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU8dpVZEdyRKYatapc1yg" name="getExcelConfigurationFilePath" visibility="public">
+        <ownedParameter xmi:id="_mOU8d5VZEdyRKYatapc1yg" name="return" type="_mOU8i5VZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU8eJVZEdyRKYatapc1yg" name="getExcelConfigurationFileDirectory" visibility="public">
+        <ownedParameter xmi:id="_mOU8eZVZEdyRKYatapc1yg" name="return" type="_mOU8i5VZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU8epVZEdyRKYatapc1yg" name="getStatusBar" visibility="public">
+        <ownedParameter xmi:id="_mOU8e5VZEdyRKYatapc1yg" name="return" type="_mOU7uZVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU8fJVZEdyRKYatapc1yg" name="writeDebugMessage" visibility="public">
+        <ownedParameter xmi:id="_mOU8fZVZEdyRKYatapc1yg" name="str" type="_mOU8i5VZEdyRKYatapc1yg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU8fpVZEdyRKYatapc1yg" name="getFile" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_mOU8f5VZEdyRKYatapc1yg" name="name" type="_mOU8i5VZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOU8gJVZEdyRKYatapc1yg" name="return" type="_mOU8o5VZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU8gZVZEdyRKYatapc1yg" name="checkConfigurationFileExists" visibility="private"/>
+      <ownedOperation xmi:id="_mOU8gpVZEdyRKYatapc1yg" name="createImageIcon" visibility="protected">
+        <ownedParameter xmi:id="_mOU8g5VZEdyRKYatapc1yg" name="path" type="_mOU8i5VZEdyRKYatapc1yg"/>
+        <ownedParameter xmi:id="_mOU8hJVZEdyRKYatapc1yg" name="return" type="_mOU8sJVZEdyRKYatapc1yg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_mOU8hZVZEdyRKYatapc1yg" name="stateChanged" visibility="public">
+        <ownedParameter xmi:id="_mOU8hpVZEdyRKYatapc1yg" name="e" type="_mOU8sZVZEdyRKYatapc1yg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8h5VZEdyRKYatapc1yg" name="JPanel"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8iJVZEdyRKYatapc1yg" name="Configuration"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8iZVZEdyRKYatapc1yg" name="JFileChooser"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8ipVZEdyRKYatapc1yg" name="JButton"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8i5VZEdyRKYatapc1yg" name="String"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8jJVZEdyRKYatapc1yg" name="MestraFileTypeEnum"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8jZVZEdyRKYatapc1yg" name="ActionEvent"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8jpVZEdyRKYatapc1yg" name="Thread"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8j5VZEdyRKYatapc1yg" name="MestraFiles"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8kJVZEdyRKYatapc1yg" name="TableView"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8kZVZEdyRKYatapc1yg" name="JScrollPane"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8kpVZEdyRKYatapc1yg" name="TableViewColumn"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8k5VZEdyRKYatapc1yg" name="DefaultTableViewModel"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8lJVZEdyRKYatapc1yg" name="JTextArea"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8lZVZEdyRKYatapc1yg" name="JComponent"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8lpVZEdyRKYatapc1yg" name="JComboBox"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8l5VZEdyRKYatapc1yg" name="JFrame"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8mJVZEdyRKYatapc1yg" name="TransferHandler"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8mZVZEdyRKYatapc1yg" name="Transferable"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8mpVZEdyRKYatapc1yg" name="DataFlavor"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8m5VZEdyRKYatapc1yg" name="DefaultTableCellRenderer"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8nJVZEdyRKYatapc1yg" name="Color"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8nZVZEdyRKYatapc1yg" name="Object"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8npVZEdyRKYatapc1yg" name="MestraFile"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8n5VZEdyRKYatapc1yg" name="JTable"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8oJVZEdyRKYatapc1yg" name="Component"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8oZVZEdyRKYatapc1yg" name="FileFilter"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8opVZEdyRKYatapc1yg" name="Hashtable"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8o5VZEdyRKYatapc1yg" name="File"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8pJVZEdyRKYatapc1yg" name="DropTargetDragEvent"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8pZVZEdyRKYatapc1yg" name="DropTargetEvent"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8ppVZEdyRKYatapc1yg" name="DropTargetDropEvent"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8p5VZEdyRKYatapc1yg" name="BoundedRangeModel"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8qJVZEdyRKYatapc1yg" name="JLabel"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8qZVZEdyRKYatapc1yg" name="Date"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8qpVZEdyRKYatapc1yg" name="DateFormat"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8q5VZEdyRKYatapc1yg" name="ArrayList"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8rJVZEdyRKYatapc1yg" name="JProgressBar"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8rZVZEdyRKYatapc1yg" name="Runnable"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8rpVZEdyRKYatapc1yg" name="URL"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8r5VZEdyRKYatapc1yg" name="MestraScenario"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8sJVZEdyRKYatapc1yg" name="ImageIcon"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_mOU8sZVZEdyRKYatapc1yg" name="ChangeEvent"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mOU8spVZEdyRKYatapc1yg" memberEnd="_mOLKbZVZEdyRKYatapc1yg _mOU8BJVZEdyRKYatapc1yg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mOU8s5VZEdyRKYatapc1yg" memberEnd="_mOLKbpVZEdyRKYatapc1yg _mOLK25VZEdyRKYatapc1yg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mOU8tJVZEdyRKYatapc1yg" memberEnd="_mOLKcZVZEdyRKYatapc1yg _mOU8tZVZEdyRKYatapc1yg">
+      <ownedEnd xmi:id="_mOU8tZVZEdyRKYatapc1yg" name="target" type="_mOLKapVZEdyRKYatapc1yg" association="_mOU8tJVZEdyRKYatapc1yg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mOU8tpVZEdyRKYatapc1yg" memberEnd="_mOLKcpVZEdyRKYatapc1yg _mOU8t5VZEdyRKYatapc1yg">
+      <ownedEnd xmi:id="_mOU8t5VZEdyRKYatapc1yg" name="target" type="_mOLKapVZEdyRKYatapc1yg" association="_mOU8tpVZEdyRKYatapc1yg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mOU8uJVZEdyRKYatapc1yg" memberEnd="_mOLKdZVZEdyRKYatapc1yg _mOU8b5VZEdyRKYatapc1yg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mOU8uZVZEdyRKYatapc1yg" memberEnd="_mOLKjZVZEdyRKYatapc1yg _mOU8upVZEdyRKYatapc1yg">
+      <ownedEnd xmi:id="_mOU8upVZEdyRKYatapc1yg" name="target" type="_mOLKiJVZEdyRKYatapc1yg" association="_mOU8uZVZEdyRKYatapc1yg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mOU8u5VZEdyRKYatapc1yg" memberEnd="_mOLKqpVZEdyRKYatapc1yg _mOU8vJVZEdyRKYatapc1yg">
+      <ownedEnd xmi:id="_mOU8vJVZEdyRKYatapc1yg" name="target" type="_mOLKp5VZEdyRKYatapc1yg" association="_mOU8u5VZEdyRKYatapc1yg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mOU8vZVZEdyRKYatapc1yg" memberEnd="_mOLKrZVZEdyRKYatapc1yg _mOU8vpVZEdyRKYatapc1yg">
+      <ownedEnd xmi:id="_mOU8vpVZEdyRKYatapc1yg" name="target" type="_mOLKp5VZEdyRKYatapc1yg" association="_mOU8vZVZEdyRKYatapc1yg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mOU8v5VZEdyRKYatapc1yg" memberEnd="_mOLKr5VZEdyRKYatapc1yg _mOU8cZVZEdyRKYatapc1yg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mOU8wJVZEdyRKYatapc1yg" memberEnd="_mOLKxZVZEdyRKYatapc1yg _mOU8wZVZEdyRKYatapc1yg">
+      <ownedEnd xmi:id="_mOU8wZVZEdyRKYatapc1yg" name="target" type="_mOLKwJVZEdyRKYatapc1yg" association="_mOU8wJVZEdyRKYatapc1yg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mOU8wpVZEdyRKYatapc1yg" memberEnd="_mOLK5ZVZEdyRKYatapc1yg _mOU8w5VZEdyRKYatapc1yg">
+      <ownedEnd xmi:id="_mOU8w5VZEdyRKYatapc1yg" name="target" type="_mOLK5JVZEdyRKYatapc1yg" association="_mOU8wpVZEdyRKYatapc1yg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mOU8xJVZEdyRKYatapc1yg" memberEnd="_mOLK5pVZEdyRKYatapc1yg _mOU8xZVZEdyRKYatapc1yg">
+      <ownedEnd xmi:id="_mOU8xZVZEdyRKYatapc1yg" name="target" type="_mOLK5JVZEdyRKYatapc1yg" association="_mOU8xJVZEdyRKYatapc1yg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mOU8xpVZEdyRKYatapc1yg" memberEnd="_mOU7cpVZEdyRKYatapc1yg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mOU8x5VZEdyRKYatapc1yg" memberEnd="_mOU7c5VZEdyRKYatapc1yg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mOU8yJVZEdyRKYatapc1yg" memberEnd="_mOU7dJVZEdyRKYatapc1yg _mOU7cZVZEdyRKYatapc1yg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mOU8yZVZEdyRKYatapc1yg" memberEnd="_mOU7vZVZEdyRKYatapc1yg _mOU8bJVZEdyRKYatapc1yg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mOU8ypVZEdyRKYatapc1yg" memberEnd="_mOU7wJVZEdyRKYatapc1yg _mOU8y5VZEdyRKYatapc1yg">
+      <ownedEnd xmi:id="_mOU8y5VZEdyRKYatapc1yg" name="target" type="_mOU7uZVZEdyRKYatapc1yg" association="_mOU8ypVZEdyRKYatapc1yg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mOU8zJVZEdyRKYatapc1yg" memberEnd="_mOU8GpVZEdyRKYatapc1yg _mOU8RZVZEdyRKYatapc1yg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mOU8zZVZEdyRKYatapc1yg" memberEnd="_mOU8LZVZEdyRKYatapc1yg _mOU8zpVZEdyRKYatapc1yg">
+      <ownedEnd xmi:id="_mOU8zpVZEdyRKYatapc1yg" name="target" type="_mOU8JJVZEdyRKYatapc1yg" association="_mOU8zZVZEdyRKYatapc1yg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mOU8z5VZEdyRKYatapc1yg" memberEnd="_mOU8LpVZEdyRKYatapc1yg _mOU8bZVZEdyRKYatapc1yg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mOU80JVZEdyRKYatapc1yg" memberEnd="_mOU8Q5VZEdyRKYatapc1yg _mOU80ZVZEdyRKYatapc1yg">
+      <ownedEnd xmi:id="_mOU80ZVZEdyRKYatapc1yg" name="target" type="_mOU8QJVZEdyRKYatapc1yg" association="_mOU80JVZEdyRKYatapc1yg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mOU80pVZEdyRKYatapc1yg" memberEnd="_mOU8SJVZEdyRKYatapc1yg _mOU8bpVZEdyRKYatapc1yg"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mOU805VZEdyRKYatapc1yg" memberEnd="_mOU8XZVZEdyRKYatapc1yg _mOU81JVZEdyRKYatapc1yg">
+      <ownedEnd xmi:id="_mOU81JVZEdyRKYatapc1yg" name="target" type="_mOU8WJVZEdyRKYatapc1yg" association="_mOU805VZEdyRKYatapc1yg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mOU81ZVZEdyRKYatapc1yg" memberEnd="_mOU8cJVZEdyRKYatapc1yg _mOU81pVZEdyRKYatapc1yg">
+      <ownedEnd xmi:id="_mOU81pVZEdyRKYatapc1yg" name="target" type="_mOU8Z5VZEdyRKYatapc1yg" association="_mOU81ZVZEdyRKYatapc1yg"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

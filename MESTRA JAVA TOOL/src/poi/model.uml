@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_IpjJAFvsEdyb0NL96k8oog">
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_IpjJAVvsEdyb0NL96k8oog" name="boolean"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_IpjJAlvsEdyb0NL96k8oog" name="byte"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_IpjJA1vsEdyb0NL96k8oog" name="char"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_IpjJBFvsEdyb0NL96k8oog" name="double"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_IpjJBVvsEdyb0NL96k8oog" name="float"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_IpjJBlvsEdyb0NL96k8oog" name="int"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_IpjJB1vsEdyb0NL96k8oog" name="long"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_IpjJCFvsEdyb0NL96k8oog" name="short"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_IpjJCVvsEdyb0NL96k8oog" name="poi">
+    <packagedElement xmi:type="uml:Class" xmi:id="_IpjJClvsEdyb0NL96k8oog" name="OutputSheetXL">
+      <ownedAttribute xmi:id="_IpjJC1vsEdyb0NL96k8oog" name="sheet" type="_IpvWi1vsEdyb0NL96k8oog"/>
+      <ownedAttribute xmi:id="_IpjJDFvsEdyb0NL96k8oog" name="SheetName" type="_IpvWjFvsEdyb0NL96k8oog"/>
+      <ownedAttribute xmi:id="_IpjJDVvsEdyb0NL96k8oog" name="sheetType" visibility="private" type="_IppPzVvsEdyb0NL96k8oog" association="_IpvWnlvsEdyb0NL96k8oog"/>
+      <ownedAttribute xmi:id="_IpjJDlvsEdyb0NL96k8oog" name="ArialEightCellStyle" visibility="private" type="_IpvWjVvsEdyb0NL96k8oog"/>
+      <ownedAttribute xmi:id="_IpjJD1vsEdyb0NL96k8oog" name="ArialEightBoldCellStyle" visibility="private" type="_IpvWjVvsEdyb0NL96k8oog"/>
+      <ownedAttribute xmi:id="_IpjJEFvsEdyb0NL96k8oog" name="ArialEightBackGroundCellStyle" visibility="private" type="_IpvWjVvsEdyb0NL96k8oog"/>
+      <ownedAttribute xmi:id="_IpjJEVvsEdyb0NL96k8oog" name="rowIndex" visibility="private" type="_IpjJCFvsEdyb0NL96k8oog"/>
+      <ownedOperation xmi:id="_IpjJElvsEdyb0NL96k8oog" name="CreateSheet" visibility="private">
+        <ownedParameter xmi:id="_IpjJE1vsEdyb0NL96k8oog" name="wb" type="_IpvWjlvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpjJFFvsEdyb0NL96k8oog" name="sheetName" type="_IpvWjFvsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IpjJFVvsEdyb0NL96k8oog" name="Write" visibility="private">
+        <ownedParameter xmi:id="_IpjJFlvsEdyb0NL96k8oog" name="text" type="_IpvWjFvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpjJF1vsEdyb0NL96k8oog" name="cell" type="_IpvWj1vsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpjJGFvsEdyb0NL96k8oog" name="style" type="_IpvWjVvsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppPoFvsEdyb0NL96k8oog" name="WriteToolVersion" visibility="public"/>
+      <ownedOperation xmi:id="_IppPoVvsEdyb0NL96k8oog" name="WriteFileName" visibility="public">
+        <ownedParameter xmi:id="_IppPolvsEdyb0NL96k8oog" name="mestraFile" type="_IpvWkFvsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppPo1vsEdyb0NL96k8oog" name="WriteTraceabilityMarkers" visibility="public">
+        <ownedParameter xmi:id="_IppPpFvsEdyb0NL96k8oog" name="mestraFiles" type="_IpvWkVvsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppPpVvsEdyb0NL96k8oog" name="WriteMarkers" visibility="public">
+        <ownedParameter xmi:id="_IppPplvsEdyb0NL96k8oog" name="mestraFile" type="_IpvWkFvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IppPp1vsEdyb0NL96k8oog" name="aConfiguration" type="_IppP31vsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppPqFvsEdyb0NL96k8oog" name="GetNumberOfItems" visibility="private">
+        <ownedParameter xmi:id="_IppPqVvsEdyb0NL96k8oog" name="mestraFile" type="_IpvWkFvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IppPqlvsEdyb0NL96k8oog" name="return" type="_IpjJBlvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppPq1vsEdyb0NL96k8oog" name="WriteHeader" visibility="private">
+        <ownedParameter xmi:id="_IppPrFvsEdyb0NL96k8oog" name="mestraFile" type="_IpvWkFvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IppPrVvsEdyb0NL96k8oog" name="aConfiguration" type="_IppP31vsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppPrlvsEdyb0NL96k8oog" name="WriteNumberOfItems" visibility="public">
+        <ownedParameter xmi:id="_IppPr1vsEdyb0NL96k8oog" name="mestraFile" type="_IpvWkFvsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppPsFvsEdyb0NL96k8oog" name="WriteFilesNames" visibility="public">
+        <ownedParameter xmi:id="_IppPsVvsEdyb0NL96k8oog" name="mestraFiles" type="_IpvWkVvsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppPslvsEdyb0NL96k8oog" name="WriteTraceabilitySRS_SSS" visibility="private">
+        <ownedParameter xmi:id="_IppPs1vsEdyb0NL96k8oog" name="mestraFiles" type="_IpvWkVvsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppPtFvsEdyb0NL96k8oog" name="WriteTraceabilityTS_SRS" visibility="private">
+        <ownedParameter xmi:id="_IppPtVvsEdyb0NL96k8oog" name="mestraFiles" type="_IpvWkVvsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppPtlvsEdyb0NL96k8oog" name="WriteTraceabilitySRS_TS" visibility="private">
+        <ownedParameter xmi:id="_IppPt1vsEdyb0NL96k8oog" name="mestraFiles" type="_IpvWkVvsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppPuFvsEdyb0NL96k8oog" name="WriteTraceabilitySSS_SRS" visibility="private">
+        <ownedParameter xmi:id="_IppPuVvsEdyb0NL96k8oog" name="mestraFiles" type="_IpvWkVvsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppPulvsEdyb0NL96k8oog" name="WriteTraceabilityMF_SRS" visibility="private">
+        <ownedParameter xmi:id="_IppPu1vsEdyb0NL96k8oog" name="mestraFiles" type="_IpvWkVvsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppPvFvsEdyb0NL96k8oog" name="WriteTraceabilitySRS_MF" visibility="private">
+        <ownedParameter xmi:id="_IppPvVvsEdyb0NL96k8oog" name="mestraFiles" type="_IpvWkVvsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppPvlvsEdyb0NL96k8oog" name="WriteSSSmarkers" visibility="private">
+        <ownedParameter xmi:id="_IppPv1vsEdyb0NL96k8oog" name="mestraFile" type="_IpvWkFvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IppPwFvsEdyb0NL96k8oog" name="aConfiguration" type="_IppP31vsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppPwVvsEdyb0NL96k8oog" name="WriteSRSmarkers" visibility="private">
+        <ownedParameter xmi:id="_IppPwlvsEdyb0NL96k8oog" name="mestraFile" type="_IpvWkFvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IppPw1vsEdyb0NL96k8oog" name="aConfiguration" type="_IppP31vsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppPxFvsEdyb0NL96k8oog" name="WriteSDDmarkers" visibility="private">
+        <ownedParameter xmi:id="_IppPxVvsEdyb0NL96k8oog" name="mestraFile" type="_IpvWkFvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IppPxlvsEdyb0NL96k8oog" name="aConfiguration" type="_IppP31vsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppPx1vsEdyb0NL96k8oog" name="WriteTSmarkers" visibility="private">
+        <ownedParameter xmi:id="_IppPyFvsEdyb0NL96k8oog" name="mestraFile" type="_IpvWkFvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IppPyVvsEdyb0NL96k8oog" name="aConfiguration" type="_IppP31vsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppPylvsEdyb0NL96k8oog" name="WriteMFmarkers" visibility="private">
+        <ownedParameter xmi:id="_IppPy1vsEdyb0NL96k8oog" name="mestraFile" type="_IpvWkFvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IppPzFvsEdyb0NL96k8oog" name="aConfiguration" type="_IppP31vsEdyb0NL96k8oog"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_IppPzVvsEdyb0NL96k8oog" name="TraceabilitySheetType">
+      <ownedAttribute xmi:id="_IppPzlvsEdyb0NL96k8oog" name="UpDown" type="_IppPzVvsEdyb0NL96k8oog" association="_IpvWoFvsEdyb0NL96k8oog"/>
+      <ownedAttribute xmi:id="_IppPz1vsEdyb0NL96k8oog" name="DownUp" type="_IppPzVvsEdyb0NL96k8oog" association="_IpvWoFvsEdyb0NL96k8oog"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_IppP0FvsEdyb0NL96k8oog" name="ExcelFileNew">
+      <ownedAttribute xmi:id="_IppP0VvsEdyb0NL96k8oog" name="fin" visibility="private" type="_IpvWklvsEdyb0NL96k8oog"/>
+      <ownedOperation xmi:id="_IppP0lvsEdyb0NL96k8oog" name="OpenExcelFile" visibility="public">
+        <ownedParameter xmi:id="_IppP01vsEdyb0NL96k8oog" name="ExcelFilePath" type="_IpvWjFvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IppP1FvsEdyb0NL96k8oog" name="return" type="_IpvWjlvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppP1VvsEdyb0NL96k8oog" name="CloseExcelFile" visibility="public">
+        <ownedParameter xmi:id="_IppP1lvsEdyb0NL96k8oog" name="return" type="_IpjJAVvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppP11vsEdyb0NL96k8oog" name="CreateSheet" visibility="public">
+        <ownedParameter xmi:id="_IppP2FvsEdyb0NL96k8oog" name="wb" type="_IpvWjlvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IppP2VvsEdyb0NL96k8oog" name="SheetName" type="_IpvWjFvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IppP2lvsEdyb0NL96k8oog" name="return" type="_IpvWi1vsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppP21vsEdyb0NL96k8oog" name="CreateOutputExcelFile" visibility="public">
+        <ownedParameter xmi:id="_IppP3FvsEdyb0NL96k8oog" name="ExcelFilePath" type="_IpvWjFvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IppP3VvsEdyb0NL96k8oog" name="wb" type="_IpvWjlvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IppP3lvsEdyb0NL96k8oog" name="return" type="_IpjJAVvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_IppP31vsEdyb0NL96k8oog" name="Configuration">
+      <ownedAttribute xmi:id="_IppP4FvsEdyb0NL96k8oog" name="fin" visibility="private" type="_IpvWklvsEdyb0NL96k8oog"/>
+      <ownedAttribute xmi:id="_IppP4VvsEdyb0NL96k8oog" name="ConfigurationInputFile" visibility="private" type="_IpvWjFvsEdyb0NL96k8oog"/>
+      <ownedAttribute xmi:id="_IppP4lvsEdyb0NL96k8oog" name="ConfigurationFileDirectory" visibility="private" type="_IpvWjFvsEdyb0NL96k8oog"/>
+      <ownedAttribute xmi:id="_IppP41vsEdyb0NL96k8oog" name="statusBar" visibility="private" type="_IpvWk1vsEdyb0NL96k8oog"/>
+      <ownedAttribute xmi:id="_IppP5FvsEdyb0NL96k8oog" name="ConfigurationOK" visibility="private" type="_IpjJAVvsEdyb0NL96k8oog"/>
+      <ownedAttribute xmi:id="_IppP5VvsEdyb0NL96k8oog" name="known_CSCIs" visibility="private" type="_IpvWlFvsEdyb0NL96k8oog"/>
+      <ownedAttribute xmi:id="_IppP5lvsEdyb0NL96k8oog" name="mestraStyles_SSS" visibility="private" type="_IpvWlVvsEdyb0NL96k8oog"/>
+      <ownedAttribute xmi:id="_IppP51vsEdyb0NL96k8oog" name="mestraStyles_SRS" visibility="private" type="_IpvWlVvsEdyb0NL96k8oog"/>
+      <ownedAttribute xmi:id="_IppP6FvsEdyb0NL96k8oog" name="mestraStyles_SDD" visibility="private" type="_IpvWlVvsEdyb0NL96k8oog"/>
+      <ownedAttribute xmi:id="_IppP6VvsEdyb0NL96k8oog" name="mestraStyles_MF" visibility="private" type="_IpvWlVvsEdyb0NL96k8oog"/>
+      <ownedAttribute xmi:id="_IppP6lvsEdyb0NL96k8oog" name="mestraStyles_TS" visibility="private" type="_IpvWlVvsEdyb0NL96k8oog"/>
+      <ownedAttribute xmi:id="_IppP61vsEdyb0NL96k8oog" name="methodLevelSafety" visibility="private" type="_IpvWllvsEdyb0NL96k8oog"/>
+      <ownedOperation xmi:id="_IppP7FvsEdyb0NL96k8oog" name="ConstructorHelper" visibility="private"/>
+      <ownedOperation xmi:id="_IppP7VvsEdyb0NL96k8oog" name="OpenExcelFile" visibility="private">
+        <ownedParameter xmi:id="_IppP7lvsEdyb0NL96k8oog" name="ExcelFilePath" type="_IpvWjFvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IppP71vsEdyb0NL96k8oog" name="statusBar" type="_IpvWk1vsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IppP8FvsEdyb0NL96k8oog" name="return" type="_IpvWjlvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppP8VvsEdyb0NL96k8oog" name="CloseExcelFile" visibility="public">
+        <ownedParameter xmi:id="_IppP8lvsEdyb0NL96k8oog" name="return" type="_IpjJAVvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppP81vsEdyb0NL96k8oog" name="ReadOneExcelRow" visibility="private">
+        <ownedParameter xmi:id="_IppP9FvsEdyb0NL96k8oog" name="row" type="_IpvWl1vsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IppP9VvsEdyb0NL96k8oog" name="return" type="_IpjJAVvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppP9lvsEdyb0NL96k8oog" name="ReadExcelRows" visibility="public">
+        <ownedParameter xmi:id="_IppP91vsEdyb0NL96k8oog" name="sheet" type="_IpvWi1vsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IppP-FvsEdyb0NL96k8oog" name="statusBar" type="_IpvWk1vsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppP-VvsEdyb0NL96k8oog" name="ReadExcelRows" visibility="public">
+        <ownedParameter xmi:id="_IppP-lvsEdyb0NL96k8oog" name="sheet" type="_IpvWi1vsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppP-1vsEdyb0NL96k8oog" name="ReadCSCI_Names" visibility="private">
+        <ownedParameter xmi:id="_IppP_FvsEdyb0NL96k8oog" name="row" type="_IpvWl1vsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppP_VvsEdyb0NL96k8oog" name="ReadCellsInRow" visibility="private">
+        <ownedParameter xmi:id="_IppP_lvsEdyb0NL96k8oog" name="row" type="_IpvWl1vsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppP_1vsEdyb0NL96k8oog" name="InitMethod" visibility="private">
+        <ownedParameter xmi:id="_IppQAFvsEdyb0NL96k8oog" name="row" type="_IpvWl1vsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IppQAVvsEdyb0NL96k8oog" name="methodLevelSafety" type="_IpvWllvsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppQAlvsEdyb0NL96k8oog" name="InitLevel" visibility="private">
+        <ownedParameter xmi:id="_IppQA1vsEdyb0NL96k8oog" name="row" type="_IpvWl1vsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IppQBFvsEdyb0NL96k8oog" name="methodLevelSafety" type="_IpvWllvsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppQBVvsEdyb0NL96k8oog" name="InitMestraStyles" visibility="private">
+        <ownedParameter xmi:id="_IppQBlvsEdyb0NL96k8oog" name="row" type="_IpvWl1vsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IppQB1vsEdyb0NL96k8oog" name="mestraStyles" type="_IpvWlVvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IppQCFvsEdyb0NL96k8oog" name="mestraFileType" type="_IpvWjFvsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppQCVvsEdyb0NL96k8oog" name="getMestraStyles_MF" visibility="public">
+        <ownedParameter xmi:id="_IppQClvsEdyb0NL96k8oog" name="return" type="_IpvWlVvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppQC1vsEdyb0NL96k8oog" name="setMestraStyles_MF" visibility="public">
+        <ownedParameter xmi:id="_IppQDFvsEdyb0NL96k8oog" name="mestraStyles_MF" type="_IpvWlVvsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppQDVvsEdyb0NL96k8oog" name="getMestraStyles_SRS" visibility="public">
+        <ownedParameter xmi:id="_IppQDlvsEdyb0NL96k8oog" name="return" type="_IpvWlVvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppQD1vsEdyb0NL96k8oog" name="setMestraStyles_SRS" visibility="public">
+        <ownedParameter xmi:id="_IppQEFvsEdyb0NL96k8oog" name="mestraStyles_SRS" type="_IpvWlVvsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppQEVvsEdyb0NL96k8oog" name="getMestraStyles_SSS" visibility="public">
+        <ownedParameter xmi:id="_IppQElvsEdyb0NL96k8oog" name="return" type="_IpvWlVvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppQE1vsEdyb0NL96k8oog" name="setMestraStyles_SSS" visibility="public">
+        <ownedParameter xmi:id="_IppQFFvsEdyb0NL96k8oog" name="mestraStyles_SSS" type="_IpvWlVvsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppQFVvsEdyb0NL96k8oog" name="getMestraStyles_TS" visibility="public">
+        <ownedParameter xmi:id="_IppQFlvsEdyb0NL96k8oog" name="return" type="_IpvWlVvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppQF1vsEdyb0NL96k8oog" name="setMestraStyles_TS" visibility="public">
+        <ownedParameter xmi:id="_IppQGFvsEdyb0NL96k8oog" name="mestraStyles_TS" type="_IpvWlVvsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppQGVvsEdyb0NL96k8oog" name="getMestraStyles" visibility="public">
+        <ownedParameter xmi:id="_IppQGlvsEdyb0NL96k8oog" name="mestraFileType" type="_IpvWmFvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IppQG1vsEdyb0NL96k8oog" name="return" type="_IpvWlVvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppQHFvsEdyb0NL96k8oog" name="getConfigurationInputFile" visibility="public">
+        <ownedParameter xmi:id="_IppQHVvsEdyb0NL96k8oog" name="return" type="_IpvWjFvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppQHlvsEdyb0NL96k8oog" name="setConfigurationInputFile" visibility="public">
+        <ownedParameter xmi:id="_IppQH1vsEdyb0NL96k8oog" name="configurationInputFile" type="_IpvWjFvsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppQIFvsEdyb0NL96k8oog" name="getKnown_CSCIs" visibility="public">
+        <ownedParameter xmi:id="_IppQIVvsEdyb0NL96k8oog" name="return" type="_IpvWlFvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppQIlvsEdyb0NL96k8oog" name="setKnown_CSCIs" visibility="public">
+        <ownedParameter xmi:id="_IppQI1vsEdyb0NL96k8oog" name="known_CSCIs" type="_IpvWlFvsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppQJFvsEdyb0NL96k8oog" name="getMethodLevelSafety" visibility="public">
+        <ownedParameter xmi:id="_IppQJVvsEdyb0NL96k8oog" name="return" type="_IpvWllvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppQJlvsEdyb0NL96k8oog" name="setMethodLevelSafety" visibility="public">
+        <ownedParameter xmi:id="_IppQJ1vsEdyb0NL96k8oog" name="methodLevelSafety" type="_IpvWllvsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppQKFvsEdyb0NL96k8oog" name="getConfigurationFileDirectory" visibility="public">
+        <ownedParameter xmi:id="_IppQKVvsEdyb0NL96k8oog" name="return" type="_IpvWjFvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppQKlvsEdyb0NL96k8oog" name="setConfigurationFileDirectory" visibility="public">
+        <ownedParameter xmi:id="_IppQK1vsEdyb0NL96k8oog" name="configurationFilePath" type="_IpvWjFvsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IppQLFvsEdyb0NL96k8oog" name="isConfigurationOK" visibility="public">
+        <ownedParameter xmi:id="_IppQLVvsEdyb0NL96k8oog" name="return" type="_IpjJAVvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IpvWQFvsEdyb0NL96k8oog" name="getMestraStyles_SDD" visibility="public">
+        <ownedParameter xmi:id="_IpvWQVvsEdyb0NL96k8oog" name="return" type="_IpvWlVvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IpvWQlvsEdyb0NL96k8oog" name="setMestraStyles_SDD" visibility="public">
+        <ownedParameter xmi:id="_IpvWQ1vsEdyb0NL96k8oog" name="mestraStyles_SDD" type="_IpvWlVvsEdyb0NL96k8oog"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_IpvWRFvsEdyb0NL96k8oog" name="OutputFileXL">
+      <ownedAttribute xmi:id="_IpvWRVvsEdyb0NL96k8oog" name="ArialEightCellStyle" visibility="private" type="_IpvWjVvsEdyb0NL96k8oog"/>
+      <ownedAttribute xmi:id="_IpvWRlvsEdyb0NL96k8oog" name="ArialEightBoldCellStyle" visibility="private" type="_IpvWjVvsEdyb0NL96k8oog"/>
+      <ownedAttribute xmi:id="_IpvWR1vsEdyb0NL96k8oog" name="ArialEightBackGroundCellStyle" visibility="private" type="_IpvWjVvsEdyb0NL96k8oog"/>
+      <ownedAttribute xmi:id="_IpvWSFvsEdyb0NL96k8oog" name="OutputFileXLSpath" visibility="private" type="_IpvWjFvsEdyb0NL96k8oog"/>
+      <ownedOperation xmi:id="_IpvWSVvsEdyb0NL96k8oog" name="ComputeTraceabilitySheetName" visibility="private">
+        <ownedParameter xmi:id="_IpvWSlvsEdyb0NL96k8oog" name="mestraFiles" type="_IpvWkVvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpvWS1vsEdyb0NL96k8oog" name="sheetType" type="_IppPzVvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpvWTFvsEdyb0NL96k8oog" name="return" type="_IpvWjFvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IpvWTVvsEdyb0NL96k8oog" name="CreateCellStyles" visibility="private">
+        <ownedParameter xmi:id="_IpvWTlvsEdyb0NL96k8oog" name="wb" type="_IpvWjlvsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IpvWT1vsEdyb0NL96k8oog" name="WriteTraceabilityResults" visibility="public">
+        <ownedParameter xmi:id="_IpvWUFvsEdyb0NL96k8oog" name="mestraFiles" type="_IpvWkVvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpvWUVvsEdyb0NL96k8oog" name="aConfiguration" type="_IppP31vsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpvWUlvsEdyb0NL96k8oog" name="return" type="_IpjJAVvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IpvWU1vsEdyb0NL96k8oog" name="WriteResults" visibility="public">
+        <ownedParameter xmi:id="_IpvWVFvsEdyb0NL96k8oog" name="mestraFile" type="_IpvWkFvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpvWVVvsEdyb0NL96k8oog" name="aConfiguration" type="_IppP31vsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpvWVlvsEdyb0NL96k8oog" name="return" type="_IpjJAVvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IpvWV1vsEdyb0NL96k8oog" name="ComputeTraceabilityFileName" visibility="private">
+        <ownedParameter xmi:id="_IpvWWFvsEdyb0NL96k8oog" name="aConfiguration" type="_IppP31vsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpvWWVvsEdyb0NL96k8oog" name="mestraFiles" type="_IpvWkVvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpvWWlvsEdyb0NL96k8oog" name="return" type="_IpvWjFvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IpvWW1vsEdyb0NL96k8oog" name="ComputeXLOutputFileName" visibility="private">
+        <ownedParameter xmi:id="_IpvWXFvsEdyb0NL96k8oog" name="aConfiguration" type="_IppP31vsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpvWXVvsEdyb0NL96k8oog" name="AnalysedFileName" type="_IpvWkFvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpvWXlvsEdyb0NL96k8oog" name="return" type="_IpvWjFvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IpvWX1vsEdyb0NL96k8oog" name="CreateOutputExcelFile" visibility="private">
+        <ownedParameter xmi:id="_IpvWYFvsEdyb0NL96k8oog" name="ExcelFilePath" type="_IpvWjFvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpvWYVvsEdyb0NL96k8oog" name="wb" type="_IpvWjlvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpvWYlvsEdyb0NL96k8oog" name="return" type="_IpjJAVvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IpvWY1vsEdyb0NL96k8oog" name="CreateArialEightSizedFont" visibility="private">
+        <ownedParameter xmi:id="_IpvWZFvsEdyb0NL96k8oog" name="wb" type="_IpvWjlvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpvWZVvsEdyb0NL96k8oog" name="Bold" type="_IpjJAVvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpvWZlvsEdyb0NL96k8oog" name="BackGround" type="_IpjJAVvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpvWZ1vsEdyb0NL96k8oog" name="return" type="_IpvWjVvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IpvWaFvsEdyb0NL96k8oog" name="getOutputFileXLSpath" visibility="public">
+        <ownedParameter xmi:id="_IpvWaVvsEdyb0NL96k8oog" name="return" type="_IpvWjFvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_IpvWalvsEdyb0NL96k8oog" name="ExcelFile">
+      <ownedAttribute xmi:id="_IpvWa1vsEdyb0NL96k8oog" name="fin" visibility="private" type="_IpvWklvsEdyb0NL96k8oog"/>
+      <ownedAttribute xmi:id="_IpvWbFvsEdyb0NL96k8oog" name="ConfigurationInputFile" visibility="private" type="_IpvWjFvsEdyb0NL96k8oog"/>
+      <ownedAttribute xmi:id="_IpvWbVvsEdyb0NL96k8oog" name="ConfigurationFileDirectory" visibility="private" type="_IpvWjFvsEdyb0NL96k8oog"/>
+      <ownedOperation xmi:id="_IpvWblvsEdyb0NL96k8oog" name="setConfigurationFileDirectory" visibility="public">
+        <ownedParameter xmi:id="_IpvWb1vsEdyb0NL96k8oog" name="configurationFilePath" type="_IpvWjFvsEdyb0NL96k8oog"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IpvWcFvsEdyb0NL96k8oog" name="OpenExcelFile" visibility="public">
+        <ownedParameter xmi:id="_IpvWcVvsEdyb0NL96k8oog" name="ExcelFilePath" type="_IpvWjFvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpvWclvsEdyb0NL96k8oog" name="statusBar" type="_IpvWk1vsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpvWc1vsEdyb0NL96k8oog" name="return" type="_IpvWjlvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IpvWdFvsEdyb0NL96k8oog" name="Close" visibility="public">
+        <ownedParameter xmi:id="_IpvWdVvsEdyb0NL96k8oog" name="return" type="_IpjJAVvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_IpvWdlvsEdyb0NL96k8oog" name="WordFile">
+      <ownedAttribute xmi:id="_IpvWd1vsEdyb0NL96k8oog" name="mestraMarkers" type="_IpvWmVvsEdyb0NL96k8oog"/>
+      <ownedOperation xmi:id="_IpvWeFvsEdyb0NL96k8oog" name="Open" visibility="public">
+        <ownedParameter xmi:id="_IpvWeVvsEdyb0NL96k8oog" name="WordFilePath" type="_IpvWjFvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpvWelvsEdyb0NL96k8oog" name="return" type="_IpvWmlvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IpvWe1vsEdyb0NL96k8oog" name="ExtractOneMestraMarker" visibility="private">
+        <ownedParameter xmi:id="_IpvWfFvsEdyb0NL96k8oog" name="paragraph" type="_IpvWm1vsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpvWfVvsEdyb0NL96k8oog" name="styleSheet" type="_IpvWnFvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpvWflvsEdyb0NL96k8oog" name="mestraStyles" type="_IpvWlVvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpvWf1vsEdyb0NL96k8oog" name="return" type="_IpvWnVvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IpvWgFvsEdyb0NL96k8oog" name="ExtractMestraMarkers" visibility="public">
+        <ownedParameter xmi:id="_IpvWgVvsEdyb0NL96k8oog" name="doc" type="_IpvWmlvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpvWglvsEdyb0NL96k8oog" name="mestraStyles" type="_IpvWlVvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpvWg1vsEdyb0NL96k8oog" name="statusBar" type="_IpvWk1vsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpvWhFvsEdyb0NL96k8oog" name="return" type="_IpjJAVvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IpvWhVvsEdyb0NL96k8oog" name="getMestraMarkers" visibility="public">
+        <ownedParameter xmi:id="_IpvWhlvsEdyb0NL96k8oog" name="return" type="_IpvWmVvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IpvWh1vsEdyb0NL96k8oog" name="Filter" visibility="private">
+        <ownedParameter xmi:id="_IpvWiFvsEdyb0NL96k8oog" name="str" type="_IpvWjFvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpvWiVvsEdyb0NL96k8oog" name="SuppressSpaces" type="_IpjJAVvsEdyb0NL96k8oog"/>
+        <ownedParameter xmi:id="_IpvWilvsEdyb0NL96k8oog" name="return" type="_IpvWjFvsEdyb0NL96k8oog" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_IpvWi1vsEdyb0NL96k8oog" name="HSSFSheet"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_IpvWjFvsEdyb0NL96k8oog" name="String"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_IpvWjVvsEdyb0NL96k8oog" name="HSSFCellStyle"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_IpvWjlvsEdyb0NL96k8oog" name="HSSFWorkbook"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_IpvWj1vsEdyb0NL96k8oog" name="HSSFCell"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_IpvWkFvsEdyb0NL96k8oog" name="MestraFile"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_IpvWkVvsEdyb0NL96k8oog" name="MestraFiles"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_IpvWklvsEdyb0NL96k8oog" name="FileInputStream"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_IpvWk1vsEdyb0NL96k8oog" name="StatusBar"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_IpvWlFvsEdyb0NL96k8oog" name="KnownCSCIs"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_IpvWlVvsEdyb0NL96k8oog" name="MestraStyles"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_IpvWllvsEdyb0NL96k8oog" name="MethodLevelSafety"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_IpvWl1vsEdyb0NL96k8oog" name="HSSFRow"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_IpvWmFvsEdyb0NL96k8oog" name="MestraFileType"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_IpvWmVvsEdyb0NL96k8oog" name="MestraMarkers"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_IpvWmlvsEdyb0NL96k8oog" name="HWPFDocument"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_IpvWm1vsEdyb0NL96k8oog" name="Paragraph"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_IpvWnFvsEdyb0NL96k8oog" name="StyleSheet"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_IpvWnVvsEdyb0NL96k8oog" name="MestraMarker"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IpvWnlvsEdyb0NL96k8oog" memberEnd="_IpjJDVvsEdyb0NL96k8oog _IpvWn1vsEdyb0NL96k8oog">
+      <ownedEnd xmi:id="_IpvWn1vsEdyb0NL96k8oog" name="target" type="_IpjJClvsEdyb0NL96k8oog" association="_IpvWnlvsEdyb0NL96k8oog"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IpvWoFvsEdyb0NL96k8oog" memberEnd="_IppPzlvsEdyb0NL96k8oog _IppPz1vsEdyb0NL96k8oog"/>
+  </packagedElement>
+</uml:Model>

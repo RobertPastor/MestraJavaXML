@@ -1,0 +1,1175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.ibm.com/xtools/1.5.0/Notation" xmlns:uml="http://www.eclipse.org/uml2/1.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.0/Umlnotation" xmi:id="_ueeV0Ei6EdqFQfbYOj7bWQ" type="Class" name="Diagramme de classes.dnx">
+  <children xmi:id="_w55PYEi6EdqFQfbYOj7bWQ" sourceEdges="_yCBVFki6EdqFQfbYOj7bWQ _yCKfAEi6EdqFQfbYOj7bWQ _yCKfA0i6EdqFQfbYOj7bWQ _yCKfBki6EdqFQfbYOj7bWQ _yCKfDki6EdqFQfbYOj7bWQ _yCKfFki6EdqFQfbYOj7bWQ _yCKfHki6EdqFQfbYOj7bWQ" targetEdges="_yCeBM0i6EdqFQfbYOj7bWQ">
+    <children xmi:id="_w55PY0i6EdqFQfbYOj7bWQ" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_w55PZEi6EdqFQfbYOj7bWQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_w55PZUi6EdqFQfbYOj7bWQ" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_w55PZki6EdqFQfbYOj7bWQ" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_w55PZ0i6EdqFQfbYOj7bWQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_w55PaEi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_w6DAYEi6EdqFQfbYOj7bWQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_w6DAYUi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_w6DAYki6EdqFQfbYOj7bWQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_w6DAY0i6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_w8ug8Ei6EdqFQfbYOj7bWQ" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_w8ug8Ui6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_w55PYUi6EdqFQfbYOj7bWQ" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w55PYki6EdqFQfbYOj7bWQ" x="38365" y="38656"/>
+  </children>
+  <children xmi:id="_xM98YEi6EdqFQfbYOj7bWQ" sourceEdges="_yCKfJki6EdqFQfbYOj7bWQ" targetEdges="_yCKfLUi6EdqFQfbYOj7bWQ _yCUQGki6EdqFQfbYOj7bWQ">
+    <children xmi:id="_xM98Y0i6EdqFQfbYOj7bWQ" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DefaultTableViewColumn[jcu^name=DefaultTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_xM98ZEi6EdqFQfbYOj7bWQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_xM98ZUi6EdqFQfbYOj7bWQ" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DefaultTableViewColumn[jcu^name=DefaultTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xM98Zki6EdqFQfbYOj7bWQ" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DefaultTableViewColumn[jcu^name=DefaultTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xM98Z0i6EdqFQfbYOj7bWQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xM98aEi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DefaultTableViewColumn[jcu^name=DefaultTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xM98aUi6EdqFQfbYOj7bWQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xM98aki6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DefaultTableViewColumn[jcu^name=DefaultTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xM98a0i6EdqFQfbYOj7bWQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xM98bEi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DefaultTableViewColumn[jcu^name=DefaultTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xM98bUi6EdqFQfbYOj7bWQ" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_xM98bki6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DefaultTableViewColumn[jcu^name=DefaultTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_xM98YUi6EdqFQfbYOj7bWQ" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DefaultTableViewColumn[jcu^name=DefaultTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xM98Yki6EdqFQfbYOj7bWQ" x="11652" y="72321"/>
+  </children>
+  <children xmi:id="_xOm7IEi6EdqFQfbYOj7bWQ" sourceEdges="_yCKfLUi6EdqFQfbYOj7bWQ _yCUQAEi6EdqFQfbYOj7bWQ _yCUQCEi6EdqFQfbYOj7bWQ" targetEdges="_yCUQIki6EdqFQfbYOj7bWQ _yCeBI0i6EdqFQfbYOj7bWQ">
+    <children xmi:id="_xOm7I0i6EdqFQfbYOj7bWQ" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_xOm7JEi6EdqFQfbYOj7bWQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_xOm7JUi6EdqFQfbYOj7bWQ" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xOm7Jki6EdqFQfbYOj7bWQ" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xOm7J0i6EdqFQfbYOj7bWQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xOm7KEi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xOm7KUi6EdqFQfbYOj7bWQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xOm7Kki6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xOm7K0i6EdqFQfbYOj7bWQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xOm7LEi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xOm7LUi6EdqFQfbYOj7bWQ" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_xOm7Lki6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_xOm7IUi6EdqFQfbYOj7bWQ" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xOm7Iki6EdqFQfbYOj7bWQ" x="15075" y="62938"/>
+  </children>
+  <children xmi:id="_xPpc8Ei6EdqFQfbYOj7bWQ" targetEdges="_yCUQAEi6EdqFQfbYOj7bWQ _yCUQEki6EdqFQfbYOj7bWQ _yCeBE0i6EdqFQfbYOj7bWQ _yCnLAEi6EdqFQfbYOj7bWQ _yCnLFki6EdqFQfbYOj7bWQ _yDD27Ui6EdqFQfbYOj7bWQ">
+    <children xmi:id="_xPpc80i6EdqFQfbYOj7bWQ" type="ImageCompartment">
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_xPpc9Ei6EdqFQfbYOj7bWQ" width="530" height="530"/>
+    </children>
+    <children xmi:id="_xPpc9Ui6EdqFQfbYOj7bWQ" type="Stereotype">
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xPpc9ki6EdqFQfbYOj7bWQ" type="Kind">
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xPpc90i6EdqFQfbYOj7bWQ" type="Name">
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xPpc-Ei6EdqFQfbYOj7bWQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xPpc-Ui6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xPpc-ki6EdqFQfbYOj7bWQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xPpc-0i6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xPpc_Ei6EdqFQfbYOj7bWQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xPpc_Ui6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLClassifierStyle" xmi:id="_xPpc8Ui6EdqFQfbYOj7bWQ" showStereotype="Label" useClassifierShape="true"/>
+    <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xPpc8ki6EdqFQfbYOj7bWQ" x="25033" y="72314"/>
+  </children>
+  <children xmi:id="_xZLzcEi6EdqFQfbYOj7bWQ" sourceEdges="_yCUQD0i6EdqFQfbYOj7bWQ _yCUQEki6EdqFQfbYOj7bWQ _yCUQGki6EdqFQfbYOj7bWQ _yCUQIki6EdqFQfbYOj7bWQ _yCUQKki6EdqFQfbYOj7bWQ _yCUQMki6EdqFQfbYOj7bWQ">
+    <children xmi:id="_xZLzc0i6EdqFQfbYOj7bWQ" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_xZLzdEi6EdqFQfbYOj7bWQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_xZLzdUi6EdqFQfbYOj7bWQ" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xZLzdki6EdqFQfbYOj7bWQ" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xZLzd0i6EdqFQfbYOj7bWQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xZLzeEi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xZLzeUi6EdqFQfbYOj7bWQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xZLzeki6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xZLze0i6EdqFQfbYOj7bWQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xZLzfEi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xZLzfUi6EdqFQfbYOj7bWQ" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_xZLzfki6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_xZLzcUi6EdqFQfbYOj7bWQ" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xZLzcki6EdqFQfbYOj7bWQ" x="24884" y="8189"/>
+  </children>
+  <children xmi:id="_xZofYEi6EdqFQfbYOj7bWQ" targetEdges="_yCeBBUi6EdqFQfbYOj7bWQ _yCeBC0i6EdqFQfbYOj7bWQ">
+    <children xmi:id="_xZofY0i6EdqFQfbYOj7bWQ" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableMouseListener[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_xZofZEi6EdqFQfbYOj7bWQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_xZofZUi6EdqFQfbYOj7bWQ" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableMouseListener[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xZofZki6EdqFQfbYOj7bWQ" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableMouseListener[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xZofZ0i6EdqFQfbYOj7bWQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xZofaEi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableMouseListener[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xZofaUi6EdqFQfbYOj7bWQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xZofaki6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableMouseListener[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xZofa0i6EdqFQfbYOj7bWQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xZofbEi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableMouseListener[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xZofbUi6EdqFQfbYOj7bWQ" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_xZofbki6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableMouseListener[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_xZofYUi6EdqFQfbYOj7bWQ" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableMouseListener[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xZofYki6EdqFQfbYOj7bWQ" x="28334" y="38679"/>
+  </children>
+  <children xmi:id="_xaO8UEi6EdqFQfbYOj7bWQ" sourceEdges="_yCeBBUi6EdqFQfbYOj7bWQ _yCeBCEi6EdqFQfbYOj7bWQ _yCeBC0i6EdqFQfbYOj7bWQ _yCeBE0i6EdqFQfbYOj7bWQ _yCeBG0i6EdqFQfbYOj7bWQ _yCeBI0i6EdqFQfbYOj7bWQ _yCeBK0i6EdqFQfbYOj7bWQ _yCeBM0i6EdqFQfbYOj7bWQ _yCeBO0i6EdqFQfbYOj7bWQ" targetEdges="_yCUQMki6EdqFQfbYOj7bWQ">
+    <children xmi:id="_xaO8U0i6EdqFQfbYOj7bWQ" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_xaO8VEi6EdqFQfbYOj7bWQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_xaO8VUi6EdqFQfbYOj7bWQ" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xaO8Vki6EdqFQfbYOj7bWQ" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xaO8V0i6EdqFQfbYOj7bWQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xaO8WEi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xaO8WUi6EdqFQfbYOj7bWQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xaO8Wki6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xaO8W0i6EdqFQfbYOj7bWQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xaO8XEi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xaO8XUi6EdqFQfbYOj7bWQ" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_xaO8Xki6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_xaO8UUi6EdqFQfbYOj7bWQ" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xaO8Uki6EdqFQfbYOj7bWQ" x="27471" y="11490"/>
+  </children>
+  <children xmi:id="_xjUm4Ei6EdqFQfbYOj7bWQ" targetEdges="_yCUQD0i6EdqFQfbYOj7bWQ _yCUQKki6EdqFQfbYOj7bWQ">
+    <children xmi:id="_xjUm40i6EdqFQfbYOj7bWQ" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Row[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_xjUm5Ei6EdqFQfbYOj7bWQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_xjUm5Ui6EdqFQfbYOj7bWQ" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Row[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xjUm5ki6EdqFQfbYOj7bWQ" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Row[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xjUm50i6EdqFQfbYOj7bWQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xjUm6Ei6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Row[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xjUm6Ui6EdqFQfbYOj7bWQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xjUm6ki6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Row[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xjUm60i6EdqFQfbYOj7bWQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xjUm7Ei6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Row[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xjUm7Ui6EdqFQfbYOj7bWQ" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_xjUm7ki6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Row[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_xjUm4Ui6EdqFQfbYOj7bWQ" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Row[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xjUm4ki6EdqFQfbYOj7bWQ" x="22269" y="11500"/>
+  </children>
+  <children xmi:id="_xkqqsEi6EdqFQfbYOj7bWQ" sourceEdges="_yCnK8Ui6EdqFQfbYOj7bWQ" targetEdges="_yCnLHki6EdqFQfbYOj7bWQ _yCnLJki6EdqFQfbYOj7bWQ _yDNn4Ei6EdqFQfbYOj7bWQ">
+    <children xmi:id="_xkqqs0i6EdqFQfbYOj7bWQ" type="ImageCompartment">
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=TableViewModelListener[jcu^name=TableViewModelListener.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_xkqqtEi6EdqFQfbYOj7bWQ" width="530" height="530"/>
+    </children>
+    <children xmi:id="_xkqqtUi6EdqFQfbYOj7bWQ" type="Stereotype">
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=TableViewModelListener[jcu^name=TableViewModelListener.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xkqqtki6EdqFQfbYOj7bWQ" type="Kind">
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=TableViewModelListener[jcu^name=TableViewModelListener.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xkqqt0i6EdqFQfbYOj7bWQ" type="Name">
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=TableViewModelListener[jcu^name=TableViewModelListener.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xkqquEi6EdqFQfbYOj7bWQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xkqquUi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=TableViewModelListener[jcu^name=TableViewModelListener.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xkqquki6EdqFQfbYOj7bWQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xkqqu0i6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=TableViewModelListener[jcu^name=TableViewModelListener.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xkqqvEi6EdqFQfbYOj7bWQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xkqqvUi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=TableViewModelListener[jcu^name=TableViewModelListener.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLClassifierStyle" xmi:id="_xkqqsUi6EdqFQfbYOj7bWQ" showStereotype="Label" useClassifierShape="true"/>
+    <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=TableViewModelListener[jcu^name=TableViewModelListener.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xkqqski6EdqFQfbYOj7bWQ" x="18177" y="72311"/>
+  </children>
+  <children xmi:id="_xk9loEi6EdqFQfbYOj7bWQ" sourceEdges="_yCnK-Ui6EdqFQfbYOj7bWQ" targetEdges="_yCBVFki6EdqFQfbYOj7bWQ _yCKfBki6EdqFQfbYOj7bWQ">
+    <children xmi:id="_xk9lo0i6EdqFQfbYOj7bWQ" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AscendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_xk9lpEi6EdqFQfbYOj7bWQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_xk9lpUi6EdqFQfbYOj7bWQ" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AscendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xk9lpki6EdqFQfbYOj7bWQ" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AscendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xk9lp0i6EdqFQfbYOj7bWQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xk9lqEi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AscendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xk9lqUi6EdqFQfbYOj7bWQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xk9lqki6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AscendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xk9lq0i6EdqFQfbYOj7bWQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xk9lrEi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AscendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xk9lrUi6EdqFQfbYOj7bWQ" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_xk9lrki6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AscendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_xk9loUi6EdqFQfbYOj7bWQ" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AscendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xk9loki6EdqFQfbYOj7bWQ" x="37529" y="62928"/>
+  </children>
+  <children xmi:id="_xlQgkEi6EdqFQfbYOj7bWQ" targetEdges="_yCeBCEi6EdqFQfbYOj7bWQ _yCeBO0i6EdqFQfbYOj7bWQ">
+    <children xmi:id="_xlQgk0i6EdqFQfbYOj7bWQ" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableKeyListener[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_xlQglEi6EdqFQfbYOj7bWQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_xlQglUi6EdqFQfbYOj7bWQ" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableKeyListener[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xlQglki6EdqFQfbYOj7bWQ" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableKeyListener[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xlQgl0i6EdqFQfbYOj7bWQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xlQgmEi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableKeyListener[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xlQgmUi6EdqFQfbYOj7bWQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xlQgmki6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableKeyListener[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xlQgm0i6EdqFQfbYOj7bWQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xlQgnEi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableKeyListener[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xlQgnUi6EdqFQfbYOj7bWQ" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_xlQgnki6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableKeyListener[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_xlQgkUi6EdqFQfbYOj7bWQ" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableKeyListener[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xlQgkki6EdqFQfbYOj7bWQ" x="33094" y="38676"/>
+  </children>
+  <children xmi:id="_xltMgEi6EdqFQfbYOj7bWQ" sourceEdges="_yCnLAEi6EdqFQfbYOj7bWQ" targetEdges="_yCKfJki6EdqFQfbYOj7bWQ">
+    <children xmi:id="_xl29gEi6EdqFQfbYOj7bWQ" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AbstractTableViewColumn[jcu^name=AbstractTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_xl29gUi6EdqFQfbYOj7bWQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_xl29gki6EdqFQfbYOj7bWQ" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AbstractTableViewColumn[jcu^name=AbstractTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xl29g0i6EdqFQfbYOj7bWQ" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AbstractTableViewColumn[jcu^name=AbstractTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xl29hEi6EdqFQfbYOj7bWQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xl29hUi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AbstractTableViewColumn[jcu^name=AbstractTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xl29hki6EdqFQfbYOj7bWQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xl29h0i6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AbstractTableViewColumn[jcu^name=AbstractTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xl29iEi6EdqFQfbYOj7bWQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xl29iUi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AbstractTableViewColumn[jcu^name=AbstractTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xl29iki6EdqFQfbYOj7bWQ" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_xl29i0i6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AbstractTableViewColumn[jcu^name=AbstractTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_xltMgUi6EdqFQfbYOj7bWQ" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AbstractTableViewColumn[jcu^name=AbstractTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xltMgki6EdqFQfbYOj7bWQ" x="8233" y="62922"/>
+  </children>
+  <children xmi:id="_xmczYEi6EdqFQfbYOj7bWQ" targetEdges="_yCKfAEi6EdqFQfbYOj7bWQ _yCKfDki6EdqFQfbYOj7bWQ _yCnK-Ui6EdqFQfbYOj7bWQ _yCnLB0i6EdqFQfbYOj7bWQ">
+    <children xmi:id="_xmczY0i6EdqFQfbYOj7bWQ" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=NullIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_xmczZEi6EdqFQfbYOj7bWQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_xmczZUi6EdqFQfbYOj7bWQ" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=NullIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xmczZki6EdqFQfbYOj7bWQ" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=NullIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xmczZ0i6EdqFQfbYOj7bWQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xmczaEi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=NullIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xmczaUi6EdqFQfbYOj7bWQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xmczaki6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=NullIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xmcza0i6EdqFQfbYOj7bWQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xmczbEi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=NullIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xmmkYEi6EdqFQfbYOj7bWQ" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_xmmkYUi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=NullIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_xmczYUi6EdqFQfbYOj7bWQ" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=NullIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xmczYki6EdqFQfbYOj7bWQ" x="39728" y="43829"/>
+  </children>
+  <children xmi:id="_xm5fUEi6EdqFQfbYOj7bWQ" sourceEdges="_yCnLB0i6EdqFQfbYOj7bWQ" targetEdges="_yCKfA0i6EdqFQfbYOj7bWQ _yCKfHki6EdqFQfbYOj7bWQ">
+    <children xmi:id="_xm5fU0i6EdqFQfbYOj7bWQ" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DescendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_xm5fVEi6EdqFQfbYOj7bWQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_xm5fVUi6EdqFQfbYOj7bWQ" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DescendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xm5fVki6EdqFQfbYOj7bWQ" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DescendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xm5fV0i6EdqFQfbYOj7bWQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xm5fWEi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DescendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xm5fWUi6EdqFQfbYOj7bWQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xm5fWki6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DescendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xm5fW0i6EdqFQfbYOj7bWQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xm5fXEi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DescendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <children xmi:id="_xm5fXUi6EdqFQfbYOj7bWQ" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_xm5fXki6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DescendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_xm5fUUi6EdqFQfbYOj7bWQ" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=DescendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xm5fUki6EdqFQfbYOj7bWQ" x="41802" y="62942"/>
+  </children>
+  <children xmi:id="_xnMaQEi6EdqFQfbYOj7bWQ" sourceEdges="_yCnLDki6EdqFQfbYOj7bWQ" targetEdges="_yCnK8Ui6EdqFQfbYOj7bWQ _yCw790i6EdqFQfbYOj7bWQ _yDD25Ui6EdqFQfbYOj7bWQ">
+    <children xmi:id="_xnMaQ0i6EdqFQfbYOj7bWQ" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_xnMaREi6EdqFQfbYOj7bWQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_xnMaRUi6EdqFQfbYOj7bWQ" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xnMaRki6EdqFQfbYOj7bWQ" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xnMaR0i6EdqFQfbYOj7bWQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xnMaSEi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xnMaSUi6EdqFQfbYOj7bWQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xnMaSki6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xnMaS0i6EdqFQfbYOj7bWQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xnMaTEi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xnMaTUi6EdqFQfbYOj7bWQ" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_xnMaTki6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_xnMaQUi6EdqFQfbYOj7bWQ" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xnMaQki6EdqFQfbYOj7bWQ" x="21307" y="87214"/>
+  </children>
+  <children xmi:id="_xn8BIEi6EdqFQfbYOj7bWQ" sourceEdges="_yCnLFki6EdqFQfbYOj7bWQ _yCnLHki6EdqFQfbYOj7bWQ" targetEdges="_yCeBK0i6EdqFQfbYOj7bWQ _yCnLDki6EdqFQfbYOj7bWQ _yCw78Ei6EdqFQfbYOj7bWQ _yDD29Ui6EdqFQfbYOj7bWQ">
+    <children xmi:id="_xn8BI0i6EdqFQfbYOj7bWQ" type="ImageCompartment">
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_xn8BJEi6EdqFQfbYOj7bWQ" width="530" height="530"/>
+    </children>
+    <children xmi:id="_xn8BJUi6EdqFQfbYOj7bWQ" type="Stereotype">
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xn8BJki6EdqFQfbYOj7bWQ" type="Kind">
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xn8BJ0i6EdqFQfbYOj7bWQ" type="Name">
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xn8BKEi6EdqFQfbYOj7bWQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xn8BKUi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xn8BKki6EdqFQfbYOj7bWQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xn8BK0i6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xn8BLEi6EdqFQfbYOj7bWQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xn8BLUi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLClassifierStyle" xmi:id="_xn8BIUi6EdqFQfbYOj7bWQ" showStereotype="Label" useClassifierShape="true"/>
+    <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xn8BIki6EdqFQfbYOj7bWQ" x="20655" y="62936"/>
+  </children>
+  <children xmi:id="_xoYtEEi6EdqFQfbYOj7bWQ" sourceEdges="_yCnLJki6EdqFQfbYOj7bWQ _yCw78Ei6EdqFQfbYOj7bWQ _yCw790i6EdqFQfbYOj7bWQ" targetEdges="_yCUQCEi6EdqFQfbYOj7bWQ">
+    <children xmi:id="_xoYtE0i6EdqFQfbYOj7bWQ" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AbstractTableViewModel[jcu^name=AbstractTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_xoYtFEi6EdqFQfbYOj7bWQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_xoYtFUi6EdqFQfbYOj7bWQ" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AbstractTableViewModel[jcu^name=AbstractTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xoYtFki6EdqFQfbYOj7bWQ" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AbstractTableViewModel[jcu^name=AbstractTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xoYtF0i6EdqFQfbYOj7bWQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xoYtGEi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AbstractTableViewModel[jcu^name=AbstractTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xoYtGUi6EdqFQfbYOj7bWQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xoYtGki6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AbstractTableViewModel[jcu^name=AbstractTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xoYtG0i6EdqFQfbYOj7bWQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xoYtHEi6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AbstractTableViewModel[jcu^name=AbstractTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xoYtHUi6EdqFQfbYOj7bWQ" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_xoYtHki6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AbstractTableViewModel[jcu^name=AbstractTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_xoYtEUi6EdqFQfbYOj7bWQ" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AbstractTableViewModel[jcu^name=AbstractTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xoYtEki6EdqFQfbYOj7bWQ" x="14659" y="43816"/>
+  </children>
+  <children xmi:id="_xpIT8Ei6EdqFQfbYOj7bWQ" sourceEdges="_yDD25Ui6EdqFQfbYOj7bWQ _yDD27Ui6EdqFQfbYOj7bWQ _yDD29Ui6EdqFQfbYOj7bWQ _yDNn4Ei6EdqFQfbYOj7bWQ" targetEdges="_yCKfFki6EdqFQfbYOj7bWQ _yCeBG0i6EdqFQfbYOj7bWQ">
+    <children xmi:id="_xpIT80i6EdqFQfbYOj7bWQ" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_xpIT9Ei6EdqFQfbYOj7bWQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_xpIT9Ui6EdqFQfbYOj7bWQ" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xpIT9ki6EdqFQfbYOj7bWQ" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xpIT90i6EdqFQfbYOj7bWQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xpIT-Ei6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xpIT-Ui6EdqFQfbYOj7bWQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xpIT-ki6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xpIT-0i6EdqFQfbYOj7bWQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_xpIT_Ei6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <children xmi:id="_xpIT_Ui6EdqFQfbYOj7bWQ" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_xpIT_ki6EdqFQfbYOj7bWQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_xpIT8Ui6EdqFQfbYOj7bWQ" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xpIT8ki6EdqFQfbYOj7bWQ" x="32714" y="43826"/>
+  </children>
+  <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_ueeV0Ui6EdqFQfbYOj7bWQ"/>
+  <edges xmi:id="_yCBVFki6EdqFQfbYOj7bWQ" type="OwnedElement" source="_w55PYEi6EdqFQfbYOj7bWQ" target="_xk9loEi6EdqFQfbYOj7bWQ">
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCBVF0i6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCBVGEi6EdqFQfbYOj7bWQ" points="[-1, 1786, 2169, -24619]$[-2594, 3373, -424, -23032]$[-2594, 20916, -424, -5489]$[-2170, 22502, 0, -3903]"/>
+  </edges>
+  <edges xmi:id="_yCKfAEi6EdqFQfbYOj7bWQ" type="OwnedElement" source="_w55PYEi6EdqFQfbYOj7bWQ" target="_xmczYEi6EdqFQfbYOj7bWQ">
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCKfAUi6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCKfAki6EdqFQfbYOj7bWQ" points="[-1, 1786, -14, -10358]$[-1, 3373, -14, -8771]"/>
+  </edges>
+  <edges xmi:id="_yCKfA0i6EdqFQfbYOj7bWQ" type="OwnedElement" source="_w55PYEi6EdqFQfbYOj7bWQ" target="_xm5fUEi6EdqFQfbYOj7bWQ">
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCKfBEi6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCKfBUi6EdqFQfbYOj7bWQ" points="[-1, 1786, -2183, -24619]$[2169, 3373, -13, -23032]$[2169, 22502, -13, -3903]"/>
+  </edges>
+  <edges xmi:id="_yCKfBki6EdqFQfbYOj7bWQ" source="_w55PYEi6EdqFQfbYOj7bWQ" target="_xk9loEi6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCKfCUi6EdqFQfbYOj7bWQ" type="KindLabel">
+      <children xmi:id="_yCKfC0i6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=AscendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      </children>
+      <children xmi:id="_yCKfDUi6EdqFQfbYOj7bWQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=AscendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      </children>
+      <children xmi:id="_yCKfDEi6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=AscendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=AscendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCKfCki6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCKfB0i6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=AscendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCKfCEi6EdqFQfbYOj7bWQ" points="[-1, 1786, 2169, -24619]$[-2170, 3373, 0, -23032]$[-2170, 22502, 0, -3903]"/>
+  </edges>
+  <edges xmi:id="_yCKfDki6EdqFQfbYOj7bWQ" source="_w55PYEi6EdqFQfbYOj7bWQ" target="_xmczYEi6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCKfEUi6EdqFQfbYOj7bWQ" type="KindLabel">
+      <children xmi:id="_yCKfE0i6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=NullIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      </children>
+      <children xmi:id="_yCKfFUi6EdqFQfbYOj7bWQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=NullIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      </children>
+      <children xmi:id="_yCKfFEi6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=NullIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=NullIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCKfEki6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCKfD0i6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=NullIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCKfEEi6EdqFQfbYOj7bWQ" points="[-1, 1786, -14, -10358]$[-1, 3373, -14, -8771]"/>
+  </edges>
+  <edges xmi:id="_yCKfFki6EdqFQfbYOj7bWQ" source="_w55PYEi6EdqFQfbYOj7bWQ" target="_xpIT8Ei6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCKfGUi6EdqFQfbYOj7bWQ" type="KindLabel">
+      <children xmi:id="_yCKfG0i6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCKfHUi6EdqFQfbYOj7bWQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCKfHEi6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCKfGki6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCKfF0i6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCKfGEi6EdqFQfbYOj7bWQ" points="[-1, 1786, 5873, -10358]$[-5874, 3373, 0, -8771]"/>
+  </edges>
+  <edges xmi:id="_yCKfHki6EdqFQfbYOj7bWQ" source="_w55PYEi6EdqFQfbYOj7bWQ" target="_xm5fUEi6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCKfIUi6EdqFQfbYOj7bWQ" type="KindLabel">
+      <children xmi:id="_yCKfI0i6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=DescendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      </children>
+      <children xmi:id="_yCKfJUi6EdqFQfbYOj7bWQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=DescendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      </children>
+      <children xmi:id="_yCKfJEi6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=DescendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=DescendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCKfIki6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCKfH0i6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=DescendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCKfIEi6EdqFQfbYOj7bWQ" points="[-1, 1786, -2183, -24619]$[2592, 3373, 410, -23032]$[2592, 20916, 410, -5489]$[2169, 22502, -13, -3903]"/>
+  </edges>
+  <edges xmi:id="_yCKfJki6EdqFQfbYOj7bWQ" source="_xM98YEi6EdqFQfbYOj7bWQ" target="_xltMgEi6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCKfKUi6EdqFQfbYOj7bWQ" type="NameLabel">
+      <children xmi:id="_yCKfK0i6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=DefaultTableViewColumn[jcu^name=DefaultTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=AbstractTableViewColumn[jcu^name=AbstractTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCKfLEi6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=DefaultTableViewColumn[jcu^name=DefaultTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=AbstractTableViewColumn[jcu^name=AbstractTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=DefaultTableViewColumn[jcu^name=DefaultTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=AbstractTableViewColumn[jcu^name=AbstractTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCKfKki6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCKfJ0i6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=DefaultTableViewColumn[jcu^name=DefaultTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=AbstractTableViewColumn[jcu^name=AbstractTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCKfKEi6EdqFQfbYOj7bWQ" points="[0, -6655, 3201, 5490]$[-3202, -8242, -1, 3903]"/>
+  </edges>
+  <edges xmi:id="_yCKfLUi6EdqFQfbYOj7bWQ" source="_xOm7IEi6EdqFQfbYOj7bWQ" target="_xM98YEi6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCKfMEi6EdqFQfbYOj7bWQ" type="KindLabel">
+      <children xmi:id="_yCKfMki6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=DefaultTableViewColumn[jcu^name=DefaultTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCKfNEi6EdqFQfbYOj7bWQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=DefaultTableViewColumn[jcu^name=DefaultTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCKfM0i6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=DefaultTableViewColumn[jcu^name=DefaultTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=DefaultTableViewColumn[jcu^name=DefaultTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCKfMUi6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCKfLki6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=DefaultTableViewColumn[jcu^name=DefaultTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCKfL0i6EdqFQfbYOj7bWQ" points="[-13, 3903, 3413, -8242]$[-3426, 5490, 0, -6655]"/>
+  </edges>
+  <edges xmi:id="_yCUQAEi6EdqFQfbYOj7bWQ" source="_xOm7IEi6EdqFQfbYOj7bWQ" target="_xPpc8Ei6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCUQA0i6EdqFQfbYOj7bWQ" type="KindLabel">
+      <children xmi:id="_yCUQBUi6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCUQB0i6EdqFQfbYOj7bWQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCUQBki6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCUQBEi6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCUQAUi6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCUQAki6EdqFQfbYOj7bWQ" points="[-13, 3903, -9406, -8242]$[9380, 5490, -13, -6655]"/>
+  </edges>
+  <edges xmi:id="_yCUQCEi6EdqFQfbYOj7bWQ" source="_xOm7IEi6EdqFQfbYOj7bWQ" target="_xoYtEEi6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCUQC0i6EdqFQfbYOj7bWQ" type="NameLabel">
+      <children xmi:id="_yCUQDUi6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=AbstractTableViewModel[jcu^name=AbstractTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCUQDki6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=AbstractTableViewModel[jcu^name=AbstractTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=AbstractTableViewModel[jcu^name=AbstractTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCUQDEi6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCUQCUi6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=AbstractTableViewModel[jcu^name=AbstractTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCUQCki6EdqFQfbYOj7bWQ" points="[-13, -3903, -13, 10358]$[-13, -5490, -13, 8771]"/>
+  </edges>
+  <edges xmi:id="_yCUQD0i6EdqFQfbYOj7bWQ" type="OwnedElement" source="_xZLzcEi6EdqFQfbYOj7bWQ" target="_xjUm4Ei6EdqFQfbYOj7bWQ">
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCUQEEi6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCUQEUi6EdqFQfbYOj7bWQ" points="[-13, 873, 2381, -14367]$[-2394, 2460, 0, -12780]"/>
+  </edges>
+  <edges xmi:id="_yCUQEki6EdqFQfbYOj7bWQ" source="_xZLzcEi6EdqFQfbYOj7bWQ" target="_xPpc8Ei6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCUQFUi6EdqFQfbYOj7bWQ" type="KindLabel">
+      <children xmi:id="_yCUQF0i6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCUQGUi6EdqFQfbYOj7bWQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCUQGEi6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCUQFki6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCUQE0i6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCUQFEi6EdqFQfbYOj7bWQ" points="[-13, 873, -437, -69070]$[411, 53895, -13, -16048]$[411, 63288, -13, -6655]"/>
+  </edges>
+  <edges xmi:id="_yCUQGki6EdqFQfbYOj7bWQ" source="_xZLzcEi6EdqFQfbYOj7bWQ" target="_xM98YEi6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCUQHUi6EdqFQfbYOj7bWQ" type="KindLabel">
+      <children xmi:id="_yCUQH0i6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=DefaultTableViewColumn[jcu^name=DefaultTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCUQIUi6EdqFQfbYOj7bWQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=DefaultTableViewColumn[jcu^name=DefaultTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCUQIEi6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=DefaultTableViewColumn[jcu^name=DefaultTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=DefaultTableViewColumn[jcu^name=DefaultTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCUQHki6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCUQG0i6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=DefaultTableViewColumn[jcu^name=DefaultTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCUQHEi6EdqFQfbYOj7bWQ" points="[-13, 873, 12382, -69070]$[-12395, 2460, 0, -67483]$[-12395, 63288, 0, -6655]"/>
+  </edges>
+  <edges xmi:id="_yCUQIki6EdqFQfbYOj7bWQ" source="_xZLzcEi6EdqFQfbYOj7bWQ" target="_xOm7IEi6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCUQJUi6EdqFQfbYOj7bWQ" type="KindLabel">
+      <children xmi:id="_yCUQJ0i6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCUQKUi6EdqFQfbYOj7bWQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCUQKEi6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCUQJki6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCUQI0i6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCUQJEi6EdqFQfbYOj7bWQ" points="[-13, 873, 8956, -56925]$[411, 2460, 9380, -55338]$[411, 52309, 9380, -5489]$[-8982, 53895, -13, -3903]"/>
+  </edges>
+  <edges xmi:id="_yCUQKki6EdqFQfbYOj7bWQ" source="_xZLzcEi6EdqFQfbYOj7bWQ" target="_xjUm4Ei6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCUQLUi6EdqFQfbYOj7bWQ" type="KindLabel">
+      <children xmi:id="_yCUQL0i6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=Row[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      </children>
+      <children xmi:id="_yCUQMUi6EdqFQfbYOj7bWQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=Row[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      </children>
+      <children xmi:id="_yCUQMEi6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=Row[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=Row[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCUQLki6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCUQK0i6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=Row[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCUQLEi6EdqFQfbYOj7bWQ" points="[-13, 873, 2381, -14367]$[-2394, 2460, 0, -12780]"/>
+  </edges>
+  <edges xmi:id="_yCUQMki6EdqFQfbYOj7bWQ" source="_xZLzcEi6EdqFQfbYOj7bWQ" target="_xaO8UEi6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCeBAEi6EdqFQfbYOj7bWQ" type="KindLabel">
+      <children xmi:id="_yCeBAki6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCeBBEi6EdqFQfbYOj7bWQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCeBA0i6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCeBAUi6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCUQM0i6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TestTableView[jcu^name=TestTableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCUQNEi6EdqFQfbYOj7bWQ" points="[-13, 873, -6642, -14367]$[6628, 2460, -1, -12780]"/>
+  </edges>
+  <edges xmi:id="_yCeBBUi6EdqFQfbYOj7bWQ" type="OwnedElement" source="_xaO8UEi6EdqFQfbYOj7bWQ" target="_xZofYEi6EdqFQfbYOj7bWQ">
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCeBBki6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCeBB0i6EdqFQfbYOj7bWQ" points="[-1, 12779, 2764, -3374]$[-2779, 14367, -14, -1786]"/>
+  </edges>
+  <edges xmi:id="_yCeBCEi6EdqFQfbYOj7bWQ" type="OwnedElement" source="_xaO8UEi6EdqFQfbYOj7bWQ" target="_xlQgkEi6EdqFQfbYOj7bWQ">
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCeBCUi6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCeBCki6EdqFQfbYOj7bWQ" points="[-1, 12779, -1839, -3374]$[1825, 14367, -13, -1786]"/>
+  </edges>
+  <edges xmi:id="_yCeBC0i6EdqFQfbYOj7bWQ" source="_xaO8UEi6EdqFQfbYOj7bWQ" target="_xZofYEi6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCeBDki6EdqFQfbYOj7bWQ" type="KindLabel">
+      <children xmi:id="_yCeBEEi6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableMouseListener[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      </children>
+      <children xmi:id="_yCeBEki6EdqFQfbYOj7bWQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableMouseListener[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      </children>
+      <children xmi:id="_yCeBEUi6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableMouseListener[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableMouseListener[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCeBD0i6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCeBDEi6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableMouseListener[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCeBDUi6EdqFQfbYOj7bWQ" points="[-1, 12779, 2764, -3374]$[-2779, 14367, -14, -1786]"/>
+  </edges>
+  <edges xmi:id="_yCeBE0i6EdqFQfbYOj7bWQ" source="_xaO8UEi6EdqFQfbYOj7bWQ" target="_xPpc8Ei6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCeBFki6EdqFQfbYOj7bWQ" type="KindLabel">
+      <children xmi:id="_yCeBGEi6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCeBGki6EdqFQfbYOj7bWQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCeBGUi6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCeBF0i6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCeBFEi6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCeBFUi6EdqFQfbYOj7bWQ" points="[-1, 12779, 6204, -41924]$[-5795, 14367, 410, -40336]$[-5795, 46462, 410, -8241]$[-6218, 48048, -13, -6655]"/>
+  </edges>
+  <edges xmi:id="_yCeBG0i6EdqFQfbYOj7bWQ" source="_xaO8UEi6EdqFQfbYOj7bWQ" target="_xpIT8Ei6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCeBHki6EdqFQfbYOj7bWQ" type="KindLabel">
+      <children xmi:id="_yCeBIEi6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCeBIki6EdqFQfbYOj7bWQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCeBIUi6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCeBH0i6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCeBHEi6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCeBHUi6EdqFQfbYOj7bWQ" points="[-1, 12779, -2329, -15518]$[4682, 14367, 2354, -13930]$[4682, 17940, 2354, -10357]$[2328, 19526, 0, -8771]"/>
+  </edges>
+  <edges xmi:id="_yCeBI0i6EdqFQfbYOj7bWQ" source="_xaO8UEi6EdqFQfbYOj7bWQ" target="_xOm7IEi6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCeBJki6EdqFQfbYOj7bWQ" type="KindLabel">
+      <children xmi:id="_yCeBKEi6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCeBKki6EdqFQfbYOj7bWQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCeBKUi6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCeBJ0i6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCeBJEi6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=DefaultTableViewModel[jcu^name=DefaultTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCeBJUi6EdqFQfbYOj7bWQ" points="[-1, 12779, 15597, -29779]$[-5372, 14367, 10226, -28191]$[-5372, 37069, 10226, -5489]$[-15611, 38655, -13, -3903]"/>
+  </edges>
+  <edges xmi:id="_yCeBK0i6EdqFQfbYOj7bWQ" source="_xaO8UEi6EdqFQfbYOj7bWQ" target="_xn8BIEi6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCeBLki6EdqFQfbYOj7bWQ" type="KindLabel">
+      <children xmi:id="_yCeBMEi6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCeBMki6EdqFQfbYOj7bWQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCeBMUi6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCeBL0i6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCeBLEi6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCeBLUi6EdqFQfbYOj7bWQ" points="[-1, 12779, 9617, -29779]$[4259, 14367, 13877, -28191]$[4259, 17940, 13877, -24618]$[-980, 19526, 8638, -23032]$[-980, 37069, 8638, -5489]$[-9632, 38655, -14, -3903]"/>
+  </edges>
+  <edges xmi:id="_yCeBM0i6EdqFQfbYOj7bWQ" source="_xaO8UEi6EdqFQfbYOj7bWQ" target="_w55PYEi6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCeBNki6EdqFQfbYOj7bWQ" type="KindLabel">
+      <children xmi:id="_yCeBOEi6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCeBOki6EdqFQfbYOj7bWQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCeBOUi6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCeBN0i6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCeBNEi6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCeBNUi6EdqFQfbYOj7bWQ" points="[-1, 12779, -8203, -3374]$[8201, 14367, -1, -1786]"/>
+  </edges>
+  <edges xmi:id="_yCeBO0i6EdqFQfbYOj7bWQ" source="_xaO8UEi6EdqFQfbYOj7bWQ" target="_xlQgkEi6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCeBPki6EdqFQfbYOj7bWQ" type="KindLabel">
+      <children xmi:id="_yCeBQEi6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableKeyListener[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      </children>
+      <children xmi:id="_yCnK8Ei6EdqFQfbYOj7bWQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableKeyListener[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      </children>
+      <children xmi:id="_yCeBQUi6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableKeyListener[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableKeyListener[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCeBP0i6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCeBPEi6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableKeyListener[jsrctype^name=TableView[jcu^name=TableView.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCeBPUi6EdqFQfbYOj7bWQ" points="[-1, 12779, -1839, -3374]$[1825, 14367, -13, -1786]"/>
+  </edges>
+  <edges xmi:id="_yCnK8Ui6EdqFQfbYOj7bWQ" source="_xkqqsEi6EdqFQfbYOj7bWQ" target="_xnMaQEi6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCnK9Ei6EdqFQfbYOj7bWQ" type="KindLabel">
+      <children xmi:id="_yCnK9ki6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewModelListener[jcu^name=TableViewModelListener.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCnK-Ei6EdqFQfbYOj7bWQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewModelListener[jcu^name=TableViewModelListener.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCnK90i6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewModelListener[jcu^name=TableViewModelListener.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewModelListener[jcu^name=TableViewModelListener.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCnK9Ui6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCnK8ki6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewModelListener[jcu^name=TableViewModelListener.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCnK80i6EdqFQfbYOj7bWQ" points="[-13, 6654, -2950, -5067]$[2923, 8241, -14, -3480]"/>
+  </edges>
+  <edges xmi:id="_yCnK-Ui6EdqFQfbYOj7bWQ" source="_xk9loEi6EdqFQfbYOj7bWQ" target="_xmczYEi6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCnK_Ei6EdqFQfbYOj7bWQ" type="NameLabel">
+      <children xmi:id="_yCnK_ki6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=AscendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]][jsrctype^name=NullIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      </children>
+      <children xmi:id="_yCnK_0i6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=AscendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]][jsrctype^name=NullIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      </children>
+      <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=AscendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]][jsrctype^name=NullIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCnK_Ui6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCnK-ki6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=AscendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]][jsrctype^name=NullIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCnK-0i6EdqFQfbYOj7bWQ" points="[0, -3903, -2183, 10358]$[2169, -5490, -14, 8771]"/>
+  </edges>
+  <edges xmi:id="_yCnLAEi6EdqFQfbYOj7bWQ" source="_xltMgEi6EdqFQfbYOj7bWQ" target="_xPpc8Ei6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCnLA0i6EdqFQfbYOj7bWQ" type="NameLabel">
+      <children xmi:id="_yCnLBUi6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Implementation" href="vizref:///#jimpl^vcore.target=uml2.Implementation[jsrctype^name=AbstractTableViewColumn[jcu^name=AbstractTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCnLBki6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Implementation" href="vizref:///#jimpl^vcore.target=uml2.Implementation[jsrctype^name=AbstractTableViewColumn[jcu^name=AbstractTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <element xmi:type="uml:Implementation" href="vizref:///#jimpl^vcore.target=uml2.Implementation[jsrctype^name=AbstractTableViewColumn[jcu^name=AbstractTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCnLBEi6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCnLAUi6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Implementation" href="vizref:///#jimpl^vcore.target=uml2.Implementation[jsrctype^name=AbstractTableViewColumn[jcu^name=AbstractTableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCnLAki6EdqFQfbYOj7bWQ" points="[-1, 3903, -16021, -8242]$[16007, 5490, -13, -6655]"/>
+  </edges>
+  <edges xmi:id="_yCnLB0i6EdqFQfbYOj7bWQ" source="_xm5fUEi6EdqFQfbYOj7bWQ" target="_xmczYEi6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCnLCki6EdqFQfbYOj7bWQ" type="NameLabel">
+      <children xmi:id="_yCnLDEi6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=DescendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]][jsrctype^name=NullIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      </children>
+      <children xmi:id="_yCnLDUi6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=DescendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]][jsrctype^name=NullIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      </children>
+      <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=DescendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]][jsrctype^name=NullIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCnLC0i6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCnLCEi6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=DescendingIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]][jsrctype^name=NullIcon[jsrctype^name=TableHeaderRenderer[jcu^name=TableHeaderRenderer.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCnLCUi6EdqFQfbYOj7bWQ" points="[-13, -3903, 2156, 10358]$[-2183, -5490, -14, 8771]"/>
+  </edges>
+  <edges xmi:id="_yCnLDki6EdqFQfbYOj7bWQ" source="_xnMaQEi6EdqFQfbYOj7bWQ" target="_xn8BIEi6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCnLEUi6EdqFQfbYOj7bWQ" type="KindLabel">
+      <children xmi:id="_yCnLE0i6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCnLFUi6EdqFQfbYOj7bWQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCnLFEi6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCnLEki6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCnLD0i6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCnLEEi6EdqFQfbYOj7bWQ" points="[-14, -3480, -14, 20386]$[-14, -19963, -14, 3903]"/>
+  </edges>
+  <edges xmi:id="_yCnLFki6EdqFQfbYOj7bWQ" source="_xn8BIEi6EdqFQfbYOj7bWQ" target="_xPpc8Ei6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCnLGUi6EdqFQfbYOj7bWQ" type="KindLabel">
+      <children xmi:id="_yCnLG0i6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCnLHUi6EdqFQfbYOj7bWQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCnLHEi6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCnLGki6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCnLF0i6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCnLGEi6EdqFQfbYOj7bWQ" points="[-14, 3903, -3427, -8242]$[3400, 5490, -13, -6655]"/>
+  </edges>
+  <edges xmi:id="_yCnLHki6EdqFQfbYOj7bWQ" source="_xn8BIEi6EdqFQfbYOj7bWQ" target="_xkqqsEi6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCnLIUi6EdqFQfbYOj7bWQ" type="KindLabel">
+      <children xmi:id="_yCnLI0i6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelListener[jcu^name=TableViewModelListener.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCnLJUi6EdqFQfbYOj7bWQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelListener[jcu^name=TableViewModelListener.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCnLJEi6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelListener[jcu^name=TableViewModelListener.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelListener[jcu^name=TableViewModelListener.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCnLIki6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCnLH0i6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelListener[jcu^name=TableViewModelListener.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCnLIEi6EdqFQfbYOj7bWQ" points="[-14, 3903, 2923, -8242]$[-2950, 5490, -13, -6655]"/>
+  </edges>
+  <edges xmi:id="_yCnLJki6EdqFQfbYOj7bWQ" source="_xoYtEEi6EdqFQfbYOj7bWQ" target="_xkqqsEi6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCnLKUi6EdqFQfbYOj7bWQ" type="KindLabel">
+      <children xmi:id="_yCnLK0i6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=AbstractTableViewModel[jcu^name=AbstractTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelListener[jcu^name=TableViewModelListener.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCnLLUi6EdqFQfbYOj7bWQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=AbstractTableViewModel[jcu^name=AbstractTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelListener[jcu^name=TableViewModelListener.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCnLLEi6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=AbstractTableViewModel[jcu^name=AbstractTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelListener[jcu^name=TableViewModelListener.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=AbstractTableViewModel[jcu^name=AbstractTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelListener[jcu^name=TableViewModelListener.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCnLKki6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCnLJ0i6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=AbstractTableViewModel[jcu^name=AbstractTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelListener[jcu^name=TableViewModelListener.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCnLKEi6EdqFQfbYOj7bWQ" points="[-13, 8771, -3056, -17635]$[-3003, 10358, -6046, -16048]$[-3003, 18165, -6046, -8241]$[3030, 19751, -13, -6655]"/>
+  </edges>
+  <edges xmi:id="_yCw78Ei6EdqFQfbYOj7bWQ" source="_xoYtEEi6EdqFQfbYOj7bWQ" target="_xn8BIEi6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yCw780i6EdqFQfbYOj7bWQ" type="NameLabel">
+      <children xmi:id="_yCw79Ui6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Implementation" href="vizref:///#jimpl^vcore.target=uml2.Implementation[jsrctype^name=AbstractTableViewModel[jcu^name=AbstractTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yCw79ki6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Implementation" href="vizref:///#jimpl^vcore.target=uml2.Implementation[jsrctype^name=AbstractTableViewModel[jcu^name=AbstractTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <element xmi:type="uml:Implementation" href="vizref:///#jimpl^vcore.target=uml2.Implementation[jsrctype^name=AbstractTableViewModel[jcu^name=AbstractTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yCw79Ei6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCw78Ui6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Implementation" href="vizref:///#jimpl^vcore.target=uml2.Implementation[jsrctype^name=AbstractTableViewModel[jcu^name=AbstractTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCw78ki6EdqFQfbYOj7bWQ" points="[-13, 8771, -5993, -5490]$[5966, 10358, -14, -3903]"/>
+  </edges>
+  <edges xmi:id="_yCw790i6EdqFQfbYOj7bWQ" source="_xoYtEEi6EdqFQfbYOj7bWQ" target="_xnMaQEi6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yDD24Ei6EdqFQfbYOj7bWQ" type="KindLabel">
+      <children xmi:id="_yDD24ki6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=AbstractTableViewModel[jcu^name=AbstractTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yDD25Ei6EdqFQfbYOj7bWQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=AbstractTableViewModel[jcu^name=AbstractTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yDD240i6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=AbstractTableViewModel[jcu^name=AbstractTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=AbstractTableViewModel[jcu^name=AbstractTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yDD24Ui6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yCw7-Ei6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=AbstractTableViewModel[jcu^name=AbstractTableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yCw7-Ui6EdqFQfbYOj7bWQ" points="[-13, 8771, -5993, -29356]$[-9856, 10358, -15836, -27769]$[-9856, 33061, -15836, -5066]$[5966, 34647, -14, -3480]"/>
+  </edges>
+  <edges xmi:id="_yDD25Ui6EdqFQfbYOj7bWQ" source="_xpIT8Ei6EdqFQfbYOj7bWQ" target="_xnMaQEi6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yDD26Ei6EdqFQfbYOj7bWQ" type="KindLabel">
+      <children xmi:id="_yDD26ki6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yDD27Ei6EdqFQfbYOj7bWQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yDD260i6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yDD26Ui6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yDD25ki6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelEvent[jcu^name=TableViewModelEvent.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yDD250i6EdqFQfbYOj7bWQ" points="[0, 8771, 11946, -29356]$[-5583, 10358, 6363, -27769]$[-5583, 33061, 6363, -5066]$[-11960, 34647, -14, -3480]"/>
+  </edges>
+  <edges xmi:id="_yDD27Ui6EdqFQfbYOj7bWQ" source="_xpIT8Ei6EdqFQfbYOj7bWQ" target="_xPpc8Ei6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yDD28Ei6EdqFQfbYOj7bWQ" type="KindLabel">
+      <children xmi:id="_yDD28ki6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yDD29Ei6EdqFQfbYOj7bWQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yDD280i6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yDD28Ui6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yDD27ki6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewColumn[jcu^name=TableViewColumn.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yDD270i6EdqFQfbYOj7bWQ" points="[0, 8771, 8533, -17635]$[-6006, 10358, 2527, -16048]$[-6006, 18165, 2527, -8241]$[-8546, 19751, -13, -6655]"/>
+  </edges>
+  <edges xmi:id="_yDD29Ui6EdqFQfbYOj7bWQ" source="_xpIT8Ei6EdqFQfbYOj7bWQ" target="_xn8BIEi6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yDD2-Ei6EdqFQfbYOj7bWQ" type="KindLabel">
+      <children xmi:id="_yDD2-ki6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yDD2_Ei6EdqFQfbYOj7bWQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yDD2-0i6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yDD2-Ui6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yDD29ki6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModel[jcu^name=TableViewModel.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yDD290i6EdqFQfbYOj7bWQ" points="[0, 8771, 11946, -5490]$[-11960, 10358, -14, -3903]"/>
+  </edges>
+  <edges xmi:id="_yDNn4Ei6EdqFQfbYOj7bWQ" source="_xpIT8Ei6EdqFQfbYOj7bWQ" target="_xkqqsEi6EdqFQfbYOj7bWQ">
+    <children xmi:id="_yDNn40i6EdqFQfbYOj7bWQ" type="NameLabel">
+      <children xmi:id="_yDNn5Ui6EdqFQfbYOj7bWQ" type="Stereotype">
+        <element xmi:type="uml:Implementation" href="vizref:///#jimpl^vcore.target=uml2.Implementation[jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelListener[jcu^name=TableViewModelListener.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <children xmi:id="_yDNn5ki6EdqFQfbYOj7bWQ" type="Name">
+        <element xmi:type="uml:Implementation" href="vizref:///#jimpl^vcore.target=uml2.Implementation[jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelListener[jcu^name=TableViewModelListener.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      </children>
+      <element xmi:type="uml:Implementation" href="vizref:///#jimpl^vcore.target=uml2.Implementation[jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelListener[jcu^name=TableViewModelListener.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yDNn5Ei6EdqFQfbYOj7bWQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_yDNn4Ui6EdqFQfbYOj7bWQ" showStereotype="Text"/>
+    <element xmi:type="uml:Implementation" href="vizref:///#jimpl^vcore.target=uml2.Implementation[jsrctype^name=TableViewAdapter[jcu^name=TableViewAdapter.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]][jsrctype^name=TableViewModelListener[jcu^name=TableViewModelListener.java[jpack^name=gui.tableView[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=TableView]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yDNn4ki6EdqFQfbYOj7bWQ" points="[0, 8771, 14883, -17635]$[-7435, 10358, 7448, -16048]$[-7435, 18165, 7448, -8241]$[-14896, 19751, -13, -6655]"/>
+  </edges>
+</notation:Diagram>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_Fu9lsJVcEdyRKYatapc1yg" name="Mestra">
+  <packagedElement xmi:type="uml:Class" xmi:id="_NU41QJVcEdyRKYatapc1yg" name="MestraBase">
+    <generalization xmi:id="_jD0tQKZ7Edymt9MZ6M6kxg" general="_cv2NwKZ7Edymt9MZ6M6kxg"/>
+    <ownedAttribute xmi:id="_Wr62EJVcEdyRKYatapc1yg" name="FileName" type="_hpA1wJVcEdyRKYatapc1yg" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_hpA1wJVcEdyRKYatapc1yg" name="String"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_k7kLoJVcEdyRKYatapc1yg" name="MestraSSS">
+    <generalization xmi:id="_nKeTMJVcEdyRKYatapc1yg" general="_NU41QJVcEdyRKYatapc1yg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pCIYYJVcEdyRKYatapc1yg" name="MestraSRS">
+    <generalization xmi:id="_qUYqcJVcEdyRKYatapc1yg" general="_NU41QJVcEdyRKYatapc1yg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_cv2NwKZ7Edymt9MZ6M6kxg" name="MestraIdentifier"/>
+</uml:Package>

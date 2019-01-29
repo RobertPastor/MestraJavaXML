@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<configuration>
+	<mestra>
+	
+		<SSS>
+		<!-- Mestra TAGs of an SMF or SCN SSS file  -->
+			<Requirement mandatory='true' display='true'>M:T:PUID:reqt</Requirement>
+			<Title display='false'>M:T:AT:texte:text</Title>
+			<SWImpact display='true'>M:T:AT:SWImpact</SWImpact>
+			<Changes display='true'>M:T:AT:categ</Changes>
+			<Revision display='true'>M:T:AT:note</Revision>
+			<RelatedURD display='true'>« M:T:LNK:satisfies</RelatedURD>
+			<RelatedOH display='true'>« M:T:LNK:satisfiesOH</RelatedOH>
+			<MethodLevelSafety display='true'>M:T:LNK:classifies</MethodLevelSafety>
+			<Allocation traceability='true' display='true'>M:T:LNK:allocates</Allocation>
+			
+		</SSS>
+		
+		<SRS>
+		
+			<Requirement mandatory='true' display='true'>M:T:PUID:reqt</Requirement>
+			<Title display='true'>M:T:AT:texte:text</Title>
+			<Changes display='true'>M:T:AT:categ</Changes>
+			<Revision display='true'>M:T:AT:note</Revision>
+			<MethodLevelSafety display='true'>M:T:LNK:classifies</MethodLevelSafety>
+			<Coverage traceability='true' display='true'>M:T:LNK:refers</Coverage>
+		
+		</SRS>
+		
+		<SDD>
+		
+			<Component mandatory='true' display='true'>M:T:PUID:comp</Component>
+			<Title display='true'>M:T:AT:texte:text</Title>
+			<Changes display='true'>M:T:AT:categ</Changes>
+			<Revision display='true'>M:T:AT:note</Revision>
+			<MethodLevelSafety display='true'>M:T:LNK:classifies</MethodLevelSafety>
+			<ImplementedRequirements traceability='true' display='true'>M:T:LNK:refers</ImplementedRequirements>
+		
+		</SDD>
+	
+		<MF>
+		
+			<SRSCoveredRequirement mandatory='true' display='true'>M:T:PUID:reqt</SRSCoveredRequirement>
+			<Title display='true'>M:T:AT:texte:text</Title>
+			<Changes display='true'>M:T:AT:categ</Changes>
+			<Revision display='true'>M:T:AT:note</Revision>
+			<MethodLevelSafety display='true'>M:T:LNK:classifies</MethodLevelSafety>
+			<DesignParts traceability='true' display='true'>M:T:LNK:refers</DesignParts>
+		
+		</MF>	
+	
+		<TS>
+		
+			<TestIdentifier mandatory='true' display='true'>M:T:PUID:test</TestIdentifier>
+			<Title display='true'>M:T:AT:texte:text</Title>
+			<Revision display='true'>M:T:AT:note</Revision>
+			<TestedECRs display='true'>M:T:AT:categ</TestedECRs>
+			<MethodLevelSafety display='true'>M:T:LNK:classifies</MethodLevelSafety>
+			<TestedRequirement traceability='true' display='true'>M:T:LNK:tested</TestedRequirement>
+		
+		</TS>
+	
+	</mestra>
+	<methodLevel>
+		<IADT>
+			<name>I</name>
+			<name>A</name>
+			<name>D</name>
+			<name>T</name>
+		</IADT>
+		<Level>
+			<name>System</name>
+			<name>CSCI</name>
+			<name>Integration</name>
+			<name>CSC</name>
+			<name>CSU</name>
+		</Level>
+	</methodLevel>
+	<CSCI>
+			<NAME>JHMI</NAME>
+			<NAME>FDP</NAME>
+			<NAME>ATLAS</NAME>
+			<NAME>AGDP</NAME>
+			<NAME>MSTS</NAME>
+			<NAME>EHMIR</NAME>
+			<NAME>IODE</NAME>
+			<NAME>OPC</NAME>
+			<NAME>RECC</NAME>
+	</CSCI>
+</configuration>

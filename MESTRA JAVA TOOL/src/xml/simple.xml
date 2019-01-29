@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<MestraConfigurationFile>
+ Created Friday May 11th 2007
+ <CSCI_Names attr="value" a2="v2">
+   This branch contains the list of known CSCI...
+   <FDP />
+   <ODS />
+   <DPR />
+ </CSCI_Names>
+
+ <!-- one more level to test...-->
+ <SSS>
+  Configuration for a SSS, a SMF or a SCN-SSS file...
+  Describes the Mestra Markers
+   <RequirementIdentifier>
+
+   </RequirementIdentifier>
+   <RequirementTitle>
+   
+   </RequirementTitle>
+ </SSS>
+ 
+ <SRS>
+  Configuration for a SRS or SCN-SRS file
+   <Identifier>
+
+   </Identifier>
+ </SRS>
+</MestraConfigurationFile>

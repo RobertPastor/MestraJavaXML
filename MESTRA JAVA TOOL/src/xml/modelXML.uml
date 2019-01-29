@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_ESQU8DiHEdyyF6_kDQCREQ">
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_ESQU8TiHEdyyF6_kDQCREQ" name="boolean"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_ESQU8jiHEdyyF6_kDQCREQ" name="byte"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_ESQU8ziHEdyyF6_kDQCREQ" name="char"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_ESQU9DiHEdyyF6_kDQCREQ" name="double"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_ESQU9TiHEdyyF6_kDQCREQ" name="float"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_ESQU9jiHEdyyF6_kDQCREQ" name="int"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_ESQU9ziHEdyyF6_kDQCREQ" name="long"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_ESQU-DiHEdyyF6_kDQCREQ" name="short"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_ESQU-TiHEdyyF6_kDQCREQ" name="xml">
+    <packagedElement xmi:type="uml:Class" xmi:id="_ESQU-jiHEdyyF6_kDQCREQ" name="VSX2">
+      <ownedOperation xmi:id="_ESQU-ziHEdyyF6_kDQCREQ" name="parse" visibility="public">
+        <ownedParameter xmi:id="_ESQU_DiHEdyyF6_kDQCREQ" name="filename" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQU_TiHEdyyF6_kDQCREQ" name="return" type="_ESQVqDiHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQU_jiHEdyyF6_kDQCREQ" name="main" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_ESQU_ziHEdyyF6_kDQCREQ" name="args" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ESQVADiHEdyyF6_kDQCREQ" name="XMLIconTreeHandler">
+      <generalization xmi:id="_ESQVATiHEdyyF6_kDQCREQ" general="_ESQVqTiHEdyyF6_kDQCREQ"/>
+      <ownedAttribute xmi:id="_ESQVAjiHEdyyF6_kDQCREQ" name="root" visibility="private" type="_ESQVqjiHEdyyF6_kDQCREQ"/>
+      <ownedAttribute xmi:id="_ESQVAziHEdyyF6_kDQCREQ" name="currentNode" visibility="private" type="_ESQVqjiHEdyyF6_kDQCREQ"/>
+      <ownedOperation xmi:id="_ESQVBDiHEdyyF6_kDQCREQ" name="getRoot" visibility="public">
+        <ownedParameter xmi:id="_ESQVBTiHEdyyF6_kDQCREQ" name="return" type="_ESQVqjiHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVBjiHEdyyF6_kDQCREQ" name="startElement" visibility="public">
+        <ownedParameter xmi:id="_ESQVBziHEdyyF6_kDQCREQ" name="namespaceURI" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVCDiHEdyyF6_kDQCREQ" name="lName" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVCTiHEdyyF6_kDQCREQ" name="qName" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVCjiHEdyyF6_kDQCREQ" name="attrs" type="_ESQVqziHEdyyF6_kDQCREQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVCziHEdyyF6_kDQCREQ" name="endElement" visibility="public">
+        <ownedParameter xmi:id="_ESQVDDiHEdyyF6_kDQCREQ" name="namespaceURI" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVDTiHEdyyF6_kDQCREQ" name="sName" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVDjiHEdyyF6_kDQCREQ" name="qName" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVDziHEdyyF6_kDQCREQ" name="characters" visibility="public">
+        <ownedParameter xmi:id="_ESQVEDiHEdyyF6_kDQCREQ" name="buf" type="_ESQU8ziHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVETiHEdyyF6_kDQCREQ" name="offset" type="_ESQU9jiHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVEjiHEdyyF6_kDQCREQ" name="len" type="_ESQU9jiHEdyyF6_kDQCREQ"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ESQVEziHEdyyF6_kDQCREQ" name="ITag" clientDependency="_ESQVGTiHEdyyF6_kDQCREQ">
+      <ownedAttribute xmi:id="_ESQVFDiHEdyyF6_kDQCREQ" name="name" visibility="private" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+      <ownedAttribute xmi:id="_ESQVFTiHEdyyF6_kDQCREQ" name="data" visibility="private" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+      <ownedAttribute xmi:id="_ESQVFjiHEdyyF6_kDQCREQ" name="attr" visibility="private" type="_ESQVqziHEdyyF6_kDQCREQ"/>
+      <ownedAttribute xmi:id="_ESQVFziHEdyyF6_kDQCREQ" name="icon" visibility="private" type="_ESQVrDiHEdyyF6_kDQCREQ"/>
+      <ownedAttribute xmi:id="_ESQVGDiHEdyyF6_kDQCREQ" name="tipText" visibility="private" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+      <interfaceRealization xmi:id="_ESQVGTiHEdyyF6_kDQCREQ" name="IconAndTipCarrier" supplier="_ESQVLDiHEdyyF6_kDQCREQ" client="_ESQVEziHEdyyF6_kDQCREQ" contract="_ESQVLDiHEdyyF6_kDQCREQ"/>
+      <ownedOperation xmi:id="_ESQVGjiHEdyyF6_kDQCREQ" name="getName" visibility="public">
+        <ownedParameter xmi:id="_ESQVGziHEdyyF6_kDQCREQ" name="return" type="_ESQVpziHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVHDiHEdyyF6_kDQCREQ" name="getAttributes" visibility="public">
+        <ownedParameter xmi:id="_ESQVHTiHEdyyF6_kDQCREQ" name="return" type="_ESQVqziHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVHjiHEdyyF6_kDQCREQ" name="setData" visibility="public">
+        <ownedParameter xmi:id="_ESQVHziHEdyyF6_kDQCREQ" name="d" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVIDiHEdyyF6_kDQCREQ" name="getData" visibility="public">
+        <ownedParameter xmi:id="_ESQVITiHEdyyF6_kDQCREQ" name="return" type="_ESQVpziHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVIjiHEdyyF6_kDQCREQ" name="getToolTipText" visibility="public">
+        <ownedParameter xmi:id="_ESQVIziHEdyyF6_kDQCREQ" name="return" type="_ESQVpziHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVJDiHEdyyF6_kDQCREQ" name="getIcon" visibility="public">
+        <ownedParameter xmi:id="_ESQVJTiHEdyyF6_kDQCREQ" name="return" type="_ESQVrDiHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVJjiHEdyyF6_kDQCREQ" name="addData" visibility="public">
+        <ownedParameter xmi:id="_ESQVJziHEdyyF6_kDQCREQ" name="d" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVKDiHEdyyF6_kDQCREQ" name="getAttributesAsString" visibility="public">
+        <ownedParameter xmi:id="_ESQVKTiHEdyyF6_kDQCREQ" name="return" type="_ESQVpziHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVKjiHEdyyF6_kDQCREQ" name="toString" visibility="public">
+        <ownedParameter xmi:id="_ESQVKziHEdyyF6_kDQCREQ" name="return" type="_ESQVpziHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_ESQVLDiHEdyyF6_kDQCREQ" name="IconAndTipCarrier">
+      <ownedOperation xmi:id="_ESQVLTiHEdyyF6_kDQCREQ" name="getIcon" visibility="public">
+        <ownedParameter xmi:id="_ESQVLjiHEdyyF6_kDQCREQ" name="return" type="_ESQVrDiHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVLziHEdyyF6_kDQCREQ" name="getToolTipText" visibility="public">
+        <ownedParameter xmi:id="_ESQVMDiHEdyyF6_kDQCREQ" name="return" type="_ESQVpziHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ESQVMTiHEdyyF6_kDQCREQ" name="VSX">
+      <ownedOperation xmi:id="_ESQVMjiHEdyyF6_kDQCREQ" name="parse" visibility="public">
+        <ownedParameter xmi:id="_ESQVMziHEdyyF6_kDQCREQ" name="filename" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVNDiHEdyyF6_kDQCREQ" name="return" type="_ESQVqDiHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVNTiHEdyyF6_kDQCREQ" name="main" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_ESQVNjiHEdyyF6_kDQCREQ" name="args" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ESQVNziHEdyyF6_kDQCREQ" name="XMLTreeHandler">
+      <generalization xmi:id="_ESQVODiHEdyyF6_kDQCREQ" general="_ESQVqTiHEdyyF6_kDQCREQ"/>
+      <ownedAttribute xmi:id="_ESQVOTiHEdyyF6_kDQCREQ" name="root" visibility="private" type="_ESQVqjiHEdyyF6_kDQCREQ"/>
+      <ownedAttribute xmi:id="_ESQVOjiHEdyyF6_kDQCREQ" name="currentNode" visibility="private" type="_ESQVqjiHEdyyF6_kDQCREQ"/>
+      <ownedOperation xmi:id="_ESQVOziHEdyyF6_kDQCREQ" name="getRoot" visibility="public">
+        <ownedParameter xmi:id="_ESQVPDiHEdyyF6_kDQCREQ" name="return" type="_ESQVqjiHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVPTiHEdyyF6_kDQCREQ" name="startElement" visibility="public">
+        <ownedParameter xmi:id="_ESQVPjiHEdyyF6_kDQCREQ" name="namespaceURI" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVPziHEdyyF6_kDQCREQ" name="lName" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVQDiHEdyyF6_kDQCREQ" name="qName" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVQTiHEdyyF6_kDQCREQ" name="attrs" type="_ESQVqziHEdyyF6_kDQCREQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVQjiHEdyyF6_kDQCREQ" name="endElement" visibility="public">
+        <ownedParameter xmi:id="_ESQVQziHEdyyF6_kDQCREQ" name="namespaceURI" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVRDiHEdyyF6_kDQCREQ" name="sName" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVRTiHEdyyF6_kDQCREQ" name="qName" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVRjiHEdyyF6_kDQCREQ" name="characters" visibility="public">
+        <ownedParameter xmi:id="_ESQVRziHEdyyF6_kDQCREQ" name="buf" type="_ESQU8ziHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVSDiHEdyyF6_kDQCREQ" name="offset" type="_ESQU9jiHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVSTiHEdyyF6_kDQCREQ" name="len" type="_ESQU9jiHEdyyF6_kDQCREQ"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ESQVSjiHEdyyF6_kDQCREQ" name="Tag">
+      <ownedAttribute xmi:id="_ESQVSziHEdyyF6_kDQCREQ" name="name" visibility="private" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+      <ownedAttribute xmi:id="_ESQVTDiHEdyyF6_kDQCREQ" name="data" visibility="private" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+      <ownedAttribute xmi:id="_ESQVTTiHEdyyF6_kDQCREQ" name="attr" visibility="private" type="_ESQVqziHEdyyF6_kDQCREQ"/>
+      <ownedOperation xmi:id="_ESQVTjiHEdyyF6_kDQCREQ" name="getName" visibility="public">
+        <ownedParameter xmi:id="_ESQVTziHEdyyF6_kDQCREQ" name="return" type="_ESQVpziHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVUDiHEdyyF6_kDQCREQ" name="getAttributes" visibility="public">
+        <ownedParameter xmi:id="_ESQVUTiHEdyyF6_kDQCREQ" name="return" type="_ESQVqziHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVUjiHEdyyF6_kDQCREQ" name="setData" visibility="public">
+        <ownedParameter xmi:id="_ESQVUziHEdyyF6_kDQCREQ" name="d" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVVDiHEdyyF6_kDQCREQ" name="getData" visibility="public">
+        <ownedParameter xmi:id="_ESQVVTiHEdyyF6_kDQCREQ" name="return" type="_ESQVpziHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVVjiHEdyyF6_kDQCREQ" name="addData" visibility="public">
+        <ownedParameter xmi:id="_ESQVVziHEdyyF6_kDQCREQ" name="d" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVWDiHEdyyF6_kDQCREQ" name="getAttributesAsString" visibility="public">
+        <ownedParameter xmi:id="_ESQVWTiHEdyyF6_kDQCREQ" name="return" type="_ESQVpziHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVWjiHEdyyF6_kDQCREQ" name="toString" visibility="public">
+        <ownedParameter xmi:id="_ESQVWziHEdyyF6_kDQCREQ" name="return" type="_ESQVpziHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ESQVXDiHEdyyF6_kDQCREQ" name="IconAndTipRenderer">
+      <generalization xmi:id="_ESQVXTiHEdyyF6_kDQCREQ" general="_ESQVrTiHEdyyF6_kDQCREQ"/>
+      <ownedAttribute xmi:id="_ESQVXjiHEdyyF6_kDQCREQ" name="serialVersionUID" visibility="private" type="_ESQU9ziHEdyyF6_kDQCREQ"/>
+      <ownedAttribute xmi:id="_ESQVXziHEdyyF6_kDQCREQ" name="backColor" type="_ESQVrjiHEdyyF6_kDQCREQ"/>
+      <ownedAttribute xmi:id="_ESQVYDiHEdyyF6_kDQCREQ" name="openIcon" type="_ESQVrDiHEdyyF6_kDQCREQ"/>
+      <ownedAttribute xmi:id="_ESQVYTiHEdyyF6_kDQCREQ" name="closedIcon" type="_ESQVrDiHEdyyF6_kDQCREQ"/>
+      <ownedAttribute xmi:id="_ESQVYjiHEdyyF6_kDQCREQ" name="leafIcon" type="_ESQVrDiHEdyyF6_kDQCREQ"/>
+      <ownedAttribute xmi:id="_ESQVYziHEdyyF6_kDQCREQ" name="tipText" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+      <ownedOperation xmi:id="_ESQVZDiHEdyyF6_kDQCREQ" name="getTreeCellRendererComponent" visibility="public">
+        <ownedParameter xmi:id="_ESQVZTiHEdyyF6_kDQCREQ" name="tree" type="_ESQVrziHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVZjiHEdyyF6_kDQCREQ" name="value" type="_ESQVsDiHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVZziHEdyyF6_kDQCREQ" name="selected" type="_ESQU8TiHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVaDiHEdyyF6_kDQCREQ" name="expanded" type="_ESQU8TiHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVaTiHEdyyF6_kDQCREQ" name="leaf" type="_ESQU8TiHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVajiHEdyyF6_kDQCREQ" name="row" type="_ESQU9jiHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVaziHEdyyF6_kDQCREQ" name="hasFocus" type="_ESQU8TiHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVbDiHEdyyF6_kDQCREQ" name="return" type="_ESQVsTiHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVbTiHEdyyF6_kDQCREQ" name="getToolTipText" visibility="public">
+        <ownedParameter xmi:id="_ESQVbjiHEdyyF6_kDQCREQ" name="return" type="_ESQVpziHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ESQVbziHEdyyF6_kDQCREQ" name="DomEcho02">
+      <generalization xmi:id="_ESQVcDiHEdyyF6_kDQCREQ" general="_ESQVsjiHEdyyF6_kDQCREQ"/>
+      <ownedAttribute xmi:id="_ESQVcTiHEdyyF6_kDQCREQ" name="document" type="_ESQVsziHEdyyF6_kDQCREQ"/>
+      <ownedAttribute xmi:id="_ESQVcjiHEdyyF6_kDQCREQ" name="windowHeight" type="_ESQU9jiHEdyyF6_kDQCREQ"/>
+      <ownedAttribute xmi:id="_ESQVcziHEdyyF6_kDQCREQ" name="leftWidth" type="_ESQU9jiHEdyyF6_kDQCREQ"/>
+      <ownedAttribute xmi:id="_ESQVdDiHEdyyF6_kDQCREQ" name="rightWidth" type="_ESQU9jiHEdyyF6_kDQCREQ"/>
+      <ownedAttribute xmi:id="_ESQVdTiHEdyyF6_kDQCREQ" name="windowWidth" type="_ESQU9jiHEdyyF6_kDQCREQ"/>
+      <ownedAttribute xmi:id="_ESQVdjiHEdyyF6_kDQCREQ" name="typeName" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+      <ownedOperation xmi:id="_ESQVdziHEdyyF6_kDQCREQ" name="main" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_ESQVeDiHEdyyF6_kDQCREQ" name="argv" type="_ESQVpziHEdyyF6_kDQCREQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVeTiHEdyyF6_kDQCREQ" name="makeFrame" visibility="public" isStatic="true"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ESQVejiHEdyyF6_kDQCREQ" name="AdapterNode">
+      <ownedAttribute xmi:id="_ESQVeziHEdyyF6_kDQCREQ" name="domNode" type="_ESQVtDiHEdyyF6_kDQCREQ"/>
+      <ownedOperation xmi:id="_ESQVfDiHEdyyF6_kDQCREQ" name="toString" visibility="public">
+        <ownedParameter xmi:id="_ESQVfTiHEdyyF6_kDQCREQ" name="return" type="_ESQVpziHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVfjiHEdyyF6_kDQCREQ" name="index" visibility="public">
+        <ownedParameter xmi:id="_ESQVfziHEdyyF6_kDQCREQ" name="child" type="_ESQVejiHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVgDiHEdyyF6_kDQCREQ" name="return" type="_ESQU9jiHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVgTiHEdyyF6_kDQCREQ" name="child" visibility="public">
+        <ownedParameter xmi:id="_ESQVgjiHEdyyF6_kDQCREQ" name="searchIndex" type="_ESQU9jiHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVgziHEdyyF6_kDQCREQ" name="return" type="_ESQVejiHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVhDiHEdyyF6_kDQCREQ" name="childCount" visibility="public">
+        <ownedParameter xmi:id="_ESQVhTiHEdyyF6_kDQCREQ" name="return" type="_ESQU9jiHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ESQVhjiHEdyyF6_kDQCREQ" name="DomToTreeModelAdapter">
+      <ownedAttribute xmi:id="_ESQVhziHEdyyF6_kDQCREQ" name="listenerList" visibility="private" type="_ESQVtTiHEdyyF6_kDQCREQ"/>
+      <ownedOperation xmi:id="_ESQViDiHEdyyF6_kDQCREQ" name="getRoot" visibility="public">
+        <ownedParameter xmi:id="_ESQViTiHEdyyF6_kDQCREQ" name="return" type="_ESQVsDiHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVijiHEdyyF6_kDQCREQ" name="isLeaf" visibility="public">
+        <ownedParameter xmi:id="_ESQViziHEdyyF6_kDQCREQ" name="aNode" type="_ESQVsDiHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVjDiHEdyyF6_kDQCREQ" name="return" type="_ESQU8TiHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVjTiHEdyyF6_kDQCREQ" name="getChildCount" visibility="public">
+        <ownedParameter xmi:id="_ESQVjjiHEdyyF6_kDQCREQ" name="parent" type="_ESQVsDiHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVjziHEdyyF6_kDQCREQ" name="return" type="_ESQU9jiHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVkDiHEdyyF6_kDQCREQ" name="getChild" visibility="public">
+        <ownedParameter xmi:id="_ESQVkTiHEdyyF6_kDQCREQ" name="parent" type="_ESQVsDiHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVkjiHEdyyF6_kDQCREQ" name="index" type="_ESQU9jiHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVkziHEdyyF6_kDQCREQ" name="return" type="_ESQVsDiHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVlDiHEdyyF6_kDQCREQ" name="getIndexOfChild" visibility="public">
+        <ownedParameter xmi:id="_ESQVlTiHEdyyF6_kDQCREQ" name="parent" type="_ESQVsDiHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVljiHEdyyF6_kDQCREQ" name="child" type="_ESQVsDiHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVlziHEdyyF6_kDQCREQ" name="return" type="_ESQU9jiHEdyyF6_kDQCREQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVmDiHEdyyF6_kDQCREQ" name="valueForPathChanged" visibility="public">
+        <ownedParameter xmi:id="_ESQVmTiHEdyyF6_kDQCREQ" name="path" type="_ESQVtjiHEdyyF6_kDQCREQ"/>
+        <ownedParameter xmi:id="_ESQVmjiHEdyyF6_kDQCREQ" name="newValue" type="_ESQVsDiHEdyyF6_kDQCREQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVmziHEdyyF6_kDQCREQ" name="addTreeModelListener" visibility="public">
+        <ownedParameter xmi:id="_ESQVnDiHEdyyF6_kDQCREQ" name="listener" type="_ESQVtziHEdyyF6_kDQCREQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVnTiHEdyyF6_kDQCREQ" name="removeTreeModelListener" visibility="public">
+        <ownedParameter xmi:id="_ESQVnjiHEdyyF6_kDQCREQ" name="listener" type="_ESQVtziHEdyyF6_kDQCREQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVnziHEdyyF6_kDQCREQ" name="fireTreeNodesChanged" visibility="public">
+        <ownedParameter xmi:id="_ESQVoDiHEdyyF6_kDQCREQ" name="e" type="_ESQVuDiHEdyyF6_kDQCREQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVoTiHEdyyF6_kDQCREQ" name="fireTreeNodesInserted" visibility="public">
+        <ownedParameter xmi:id="_ESQVojiHEdyyF6_kDQCREQ" name="e" type="_ESQVuDiHEdyyF6_kDQCREQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVoziHEdyyF6_kDQCREQ" name="fireTreeNodesRemoved" visibility="public">
+        <ownedParameter xmi:id="_ESQVpDiHEdyyF6_kDQCREQ" name="e" type="_ESQVuDiHEdyyF6_kDQCREQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ESQVpTiHEdyyF6_kDQCREQ" name="fireTreeStructureChanged" visibility="public">
+        <ownedParameter xmi:id="_ESQVpjiHEdyyF6_kDQCREQ" name="e" type="_ESQVuDiHEdyyF6_kDQCREQ"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_ESQVpziHEdyyF6_kDQCREQ" name="String"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_ESQVqDiHEdyyF6_kDQCREQ" name="TreeModel"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_ESQVqTiHEdyyF6_kDQCREQ" name="DefaultHandler"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_ESQVqjiHEdyyF6_kDQCREQ" name="DefaultMutableTreeNode"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_ESQVqziHEdyyF6_kDQCREQ" name="Attributes"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_ESQVrDiHEdyyF6_kDQCREQ" name="Icon"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_ESQVrTiHEdyyF6_kDQCREQ" name="JLabel"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_ESQVrjiHEdyyF6_kDQCREQ" name="Color"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_ESQVrziHEdyyF6_kDQCREQ" name="JTree"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_ESQVsDiHEdyyF6_kDQCREQ" name="Object"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_ESQVsTiHEdyyF6_kDQCREQ" name="Component"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_ESQVsjiHEdyyF6_kDQCREQ" name="JPanel"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_ESQVsziHEdyyF6_kDQCREQ" name="Document"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_ESQVtDiHEdyyF6_kDQCREQ" name="org.w3c.dom.Node"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_ESQVtTiHEdyyF6_kDQCREQ" name="Vector"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_ESQVtjiHEdyyF6_kDQCREQ" name="TreePath"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_ESQVtziHEdyyF6_kDQCREQ" name="TreeModelListener"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_ESQVuDiHEdyyF6_kDQCREQ" name="TreeModelEvent"/>
+  </packagedElement>
+</uml:Model>

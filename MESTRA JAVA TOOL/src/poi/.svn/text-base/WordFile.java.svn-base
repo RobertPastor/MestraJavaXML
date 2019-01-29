@@ -1,0 +1,304 @@
+package poi;
+
+import gui.StatusBar;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Iterator;
+import java.util.StringTokenizer;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+import mestra.MestraMarker;
+import mestra.MestraMarkers;
+import mestra.MestraMainText;
+import mestra.MestraStyle;
+import mestra.MestraStyles;
+
+import org.apache.poi.hwpf.HWPFDocument;
+import org.apache.poi.hwpf.model.StyleDescription;
+import org.apache.poi.hwpf.model.StyleSheet;
+import org.apache.poi.hwpf.usermodel.CharacterRun;
+import org.apache.poi.hwpf.usermodel.Paragraph;
+import org.apache.poi.hwpf.usermodel.Range;
+import org.apache.poi.hwpf.usermodel.Section;
+
+/**
+ * 02 February 2008 Long Dash changes to short Dash
+ * @author Pastor
+ *
+ */
+
+public class WordFile {
+	
+	private static final Logger logger = Logger.getLogger(WordFile.class.getName()); 
+
+	MestraMarkers mestraMarkers = null;
+
+	public WordFile() {
+		this.mestraMarkers = new MestraMarkers();
+	}
+
+	public HWPFDocument Open(String WordFilePath) {
+		HWPFDocument doc = null;
+		try {
+			doc = new HWPFDocument (new FileInputStream (WordFilePath));
+		}
+		catch (FileNotFoundException e1) {
+			System.out.println("WordFile: FileInputStream does not exist: " + WordFilePath + " error " + e1.getMessage());
+			return null;
+		}
+		catch (IOException e2) {
+			System.out.println("WordFile: IOException raised: " + e2.getMessage());
+			return null;
+		}
+		catch (ArrayIndexOutOfBoundsException e3) {
+			System.out.println("WordFile: ArrayIndexOutOfBoundsException raised: " + e3.getMessage());
+			return null;
+		}
+		// 16 September 2008
+		catch (IllegalArgumentException e4) {
+			System.out.println("WordFile: IllegalArgumentException raised: " + e4.getMessage());
+			return null;
+		}
+		return doc;
+	}
+
+	private  MestraMarker ExtractOneMestraMarker(Paragraph paragraph,
+			StyleSheet styleSheet, 
+			MestraStyles mestraStyles) {
+
+		// assumption : one paragraph has one style
+		MestraMarker mestraMarker = null;
+		String strMarker = "";
+		String strStyle = "";
+
+		short styleIndex = paragraph.getStyleIndex();
+		StyleDescription styleDescription = styleSheet.getStyleDescription(styleIndex);
+		if (styleDescription != null) {
+			String paragraphStyle = styleDescription.getName();
+			//System.out.println("Word File: paragraph style: "+paragraphStyle);
+
+			assert( mestraStyles != null);
+			Iterator<MestraStyle> Iter = mestraStyles.iterator();
+			while (Iter.hasNext()){
+				MestraStyle mestraStyle = Iter.next();
+
+				strStyle = mestraStyle.getMestraStyle();
+				if (paragraphStyle.equalsIgnoreCase(strStyle)){
+					
+					logger.log(Level.INFO,"searched style found: "+mestraStyle.getMestraStyle());
+					mestraMarker = new MestraMarker();
+					// set the style
+					mestraMarker.setMestraStyle(new MestraStyle(strStyle,""));
+					strMarker = getParagraph(paragraph);
+
+					if (strStyle.equalsIgnoreCase(mestraStyles.GetMainStyle()) == true ) {
+						// suppress SPACES BLANK if main style
+						logger.log(Level.INFO,"==========Main style found: "+strMarker);
+						strMarker = Filter(strMarker,true);
+					}
+					else {
+						strMarker = Filter(strMarker,false);
+					}
+					// set the content of the Mestra Marker
+					mestraMarker.setMestraMarker(strMarker);
+				}
+			}
+		}
+		if (strMarker.length() == 0) {
+			return null;
+		}
+		return mestraMarker;
+	}
+	
+	private String getParagraph(Paragraph paragraph) {
+		
+		String strParagraph = "";
+		for (int z = 0; z < paragraph.numCharacterRuns(); z++) {
+			// character run
+			CharacterRun run = paragraph.getCharacterRun(z);
+			//System.out.println("Word File: Character Run "+run.text());
+			if ( (run.isStrikeThrough() == false) && (run.isMarkedDeleted() == false) ) {
+				//System.out.println("Word File: Character Run is NOT Strike Through " +
+				//		"and NOT Marked as Deleted: "+run.text());
+				//System.out.println("Word File: Character Run: "+run.text());
+				strParagraph = strParagraph + run.text();
+			}
+		}
+		return strParagraph;
+	}
+
+	/**
+	 * Extract all Mestra Markers from one WORD Document
+	 * @param doc
+	 * @param mestraStyles
+	 * @param statusBar
+	 * @return
+	 */
+	public boolean ExtractMestraMarkers(HWPFDocument doc, 
+			MestraStyles mestraStyles,
+			StatusBar statusBar) {
+
+		boolean ManageRequirementText = false;
+		MestraMainText reqText = null;
+		// we browse through all the sections and all the paragraphs of the document 
+		// looking for the expected MESTRA Styles
+		try
+		{
+			Range r = doc.getRange();
+			StyleSheet styleSheet = doc.getStyleSheet();
+			//System.out.println("Word File: number of sections: "+r.numSections());
+			for (int x = 0; x < r.numSections(); x++)
+			{
+				Section s = r.getSection(x);
+				//System.out.println("WordFile Section: "+x);
+				if (statusBar != null) {
+					statusBar.setProgressBarMaxValue(s.numParagraphs());
+				}
+				//System.out.println("Word File: number of paragraphs: "+s.numParagraphs());
+				for (int y = 0; y < s.numParagraphs(); y++) {
+					
+					//System.out.println("Word File: paragraph: "+y);
+
+					// let the status bar progress
+					if (statusBar != null) {
+						statusBar.setProgressBarValue(y);
+					}
+					
+					Paragraph paragraph = s.getParagraph(y);
+					if (paragraph != null) {
+						//System.out.println(paragraph.getCharacterRun(0).text());
+
+						//if (paragraph.isInTable() == false) {
+						MestraMarker mestraMarker = ExtractOneMestraMarker( paragraph, styleSheet, mestraStyles);
+						if (mestraMarker != null) {
+							// we did found an expected Mestra Marker
+							//System.out.println("Word File: "+mestraMarker.getMestraMarker());
+							mestraMarkers.add(mestraMarker);
+							
+							if (this.mestraMarkers.getLast().getMestraStyle().getMestraStyle().equalsIgnoreCase(mestraStyles.GetMainStyle())==false ) {
+								// the last added marker is not a main one ... we close the set of text of the requirement
+								if (ManageRequirementText == true) {
+									ManageRequirementText = false;
+									if (reqText != null) {
+										logger.log(Level.INFO,reqText.getText());
+										mestraMarkers.add(new MestraMarker(reqText.getText(),new MestraStyle("req.end","Req Text",false)));
+									}
+								}
+							}
+						}
+						else {
+							//System.out.println("Word File: paragraph has not one of the expected style");
+							if (this.mestraMarkers.size()>0) {
+								// we need at least one Main marker to attach / relate the Requirement Text to it
+								if (this.mestraMarkers.getLast().getMestraStyle().getMestraStyle().equalsIgnoreCase(mestraStyles.GetMainStyle())) {
+									// last style was a main style
+									if (ManageRequirementText == false) {
+										ManageRequirementText = true;
+										reqText = new MestraMainText();
+									}
+									//System.out.println("Word File: paragraph is candidate for Requirement Text");
+									if (reqText != null) {
+										reqText.add(getParagraph(paragraph));
+									}
+								}
+							}
+						}
+					}
+					else {
+						System.err.println("Word File: paragraph is null!!!");
+					}
+				}
+			}
+		}
+		catch (Throwable t)
+		{
+			t.printStackTrace();
+			System.err.println("Word File: catch a Throwable: "+t.toString());
+			if (statusBar != null) {
+				statusBar.setMessage("Exception: "+t.toString());
+			}
+			return false;
+		}
+		// set progress Bar to 0
+		if (statusBar != null) {
+			statusBar.setProgressBarMaxValue(0);
+		}
+		return true;
+	}
+
+	public MestraMarkers getMestraMarkers () {
+		return mestraMarkers;
+	}
+
+	private String Filter(String str,boolean SuppressSpaces){
+
+		// added 1st Febuary 2008
+		// Robert Pastor
+		str = convertDash173toDash45(str);
+
+		int len = str.length();
+		if (len > 0){
+			while ((str.length() > 0) && ((str.endsWith("\b")) || 
+					(str.endsWith("\t")) ||
+					(str.endsWith("\n")) ||
+					(str.endsWith("\r")) ||
+					(str.endsWith("\f")) ||
+					((int)str.charAt(len-1)==7 ) ||
+					((int)str.charAt(len-1)==8 ) ||
+					((int)str.charAt(len-1)==9 ) ||
+					((int)str.charAt(len-1)==10 ) ||
+					((int)str.charAt(len-1)==11 ) ||
+					((int)str.charAt(len-1)==12 ) ||
+					((int)str.charAt(len-1)==13 )) ) {
+				str = str.substring(0, len-1);
+				// need to compute again the length in the while loop
+				len = str.length();
+			}
+			while ((str.length() > 0) && ((str.startsWith("\b")) ||
+					(str.startsWith("\t")) ||
+					(str.startsWith("\n")) ||
+					(str.startsWith("\r")) ||
+					(str.startsWith("\f")) ||
+					((int)str.charAt(0)==7 ) ||
+					((int)str.charAt(0)==8 ) ||
+					((int)str.charAt(0)==9 ) ||
+					((int)str.charAt(0)==10 ) ||
+					((int)str.charAt(0)==11 ) ||
+					((int)str.charAt(0)==12 ) ||
+					((int)str.charAt(0)==13 )) ) {
+				str = str.substring(1);
+			}	
+			if (SuppressSpaces == true) {
+				str = str.trim();
+				str = str.toUpperCase();
+			}
+		}
+		return str;
+	}
+	/**
+	 * 1st February 2008
+	 * special Long Dash Characters generate a non genuine error
+	 * 
+	 * @param source
+	 * @return
+	 */
+	private static String convertDash173toDash45(String source) {
+
+		String char173 = new Character((char)8211).toString();
+		StringTokenizer st = new StringTokenizer(source,char173,false);
+		String t="";
+		while (st.hasMoreElements()) {
+			if (t.length() == 0) {
+				t = t + st.nextElement();
+			}
+			else {
+				t = t + new Character((char)45).toString() + st.nextElement();
+			}
+		}
+		return t;
+	}
+
+}
