@@ -26,4 +26,13 @@ A traceability item is some kind of abstract object that is containing a link
 1) to one "marker" in one artefact
 2) to another "marker" in another artefact
 
-The rest depends on the artefacts involved in the exercice.
+The rest depends on the artefacts involved in the exercice and the purpose of the exercice.
+The most advanced Use Cases , it to 
+1) put a set of WORD documents docx as System Requirements containers
+2) extract them and build a huge list (filter duplicates when applicable)
+3) filter only those System Requirements allocated on one component CSCI
+4) extract the markers from the WORD docx files defined as the set of Component CSCI Software Requirements
+5) start the traceability analysis and state :
+       a) that all System Requirements allocated to CSCI A are "implemented" in the Component CSCI
+       b) that some System Requirements allocated to CSCI A are not "declared as implemented" in the DOCx of component CSCI
+       c) that some Software Requirements are claiming to cover System Requirements where the SSS does not say that this System Requirement is allocated to component CSCI
