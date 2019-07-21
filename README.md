@@ -12,7 +12,7 @@ MESTRA allows to defined styles inside Word DOCX documents in order to consider 
 3) as Software Requirements etc.
 4) Software Tests
 
-The tool relies upon Apache POI to extract these "markers" using the style.
+The tool relies upon Apache POI https://poi.apache.org/ to extract these "markers" using the style.
 Hence the style is the Interface Specification between a SSS System Spec, SRS SW Req, artefacts and the tool.
 
 The tool has to objectives
