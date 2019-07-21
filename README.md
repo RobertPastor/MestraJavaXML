@@ -15,7 +15,7 @@ MESTRA allows to defined styles inside Word DOCX documents in order to consider 
 The tool relies upon Apache POI https://poi.apache.org/ to extract these "markers" using the style.
 Hence the style is the Interface Specification between a SSS System Spec, SRS SW Req, artefacts and the tool.
 
-The tool has to objectives
+The tool has the following objectives
 1) extract markers and combine them to achieve 
      a) artefact verification 
      b) artefact filtering ... example a System Req allocated to a Component CSCI
