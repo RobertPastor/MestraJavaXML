@@ -3,7 +3,7 @@ Mestra Java Mestra with XML config
 
 MESTRA is a french NORM to manage traceability between development artefacts.
 
-In one word, MESTRA is a litest Requirements / Test Specification management tool.
+In one word, MESTRA is a lite Requirements / Test Specification management tool.
 It is hence the DOORS lite for a poor project willing to master its requirements , tests etc.
 
 MESTRA allows to defined styles inside Word DOCX documents in order to consider them
