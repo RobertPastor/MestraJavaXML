@@ -1,5 +1,5 @@
 # MestraJavaXML
-Mestra Java Mestra with XML config
+Mestra Java Mestra with XML configuration.
 
 MESTRA is a french NORM to manage traceability between development artefacts.
 
